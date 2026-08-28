@@ -59,23 +59,12 @@ jobs:
             -O yuyansdk/src/main/assets/rime/wanxiang-lts-zh-hans.gram
           ls -lh yuyansdk/src/main/assets/rime/wanxiang-lts-zh-hans.gram
 
-      - name: Prepare signing keystore
+      - name: Decode keystore
+        run: |
+          echo "$KEYSTORE_BASE64" | base64 -d > keystore/release.jks
+          ls -lh keystore/release.jks
         env:
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
-          STORE_FILE: ${{ secrets.RELEASE_STORE_FILE }}
-        run: |
-          mkdir -p keystore
-          if [ -n "$KEYSTORE_BASE64" ]; then
-            echo "Using provided keystore from secrets"
-            echo "$KEYSTORE_BASE64" | base64 -d > "$STORE_FILE"
-          else
-            echo "No keystore secret found, generating self-signed keystore"
-            keytool -genkey -v \
-              -keystore keystore/release.jks \
-              -keyalg RSA -keysize 2048 -validity 36500 \
-              -alias yuyan -storepass yuyan123 -keypass yuyan123 \
-              -dname "CN=YuyanIme, OU=Dev, O=Yuyan, L=Beijing, ST=Beijing, C=CN"
-          fi
 
       - name: Make gradlew executable
         run: chmod +x gradlew
@@ -83,10 +72,10 @@ jobs:
       - name: Build Release APK
         run: ./gradlew assembleOfflineRelease
         env:
-          RELEASE_STORE_FILE: ${{ secrets.RELEASE_STORE_FILE || 'keystore/release.jks' }}
-          RELEASE_STORE_PASSWORD: ${{ secrets.RELEASE_STORE_PASSWORD || 'yuyan123' }}
-          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS || 'yuyan' }}
-          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD || 'yuyan123' }}
+          RELEASE_STORE_FILE: ${{ secrets.RELEASE_STORE_FILE }}
+          RELEASE_STORE_PASSWORD: ${{ secrets.RELEASE_STORE_PASSWORD }}
+          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
 
       - name: Build Debug APK
         run: ./gradlew assembleOfflineDebug
