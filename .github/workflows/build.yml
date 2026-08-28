@@ -52,6 +52,13 @@ jobs:
             echo "✅ librime_sync.so for $arch"
           done
 
+      - name: Download language model (.gram)
+        run: |
+          echo "📦 Downloading wanxiang grammar model..."
+          wget -q "https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram" \
+            -O yuyansdk/src/main/assets/rime/wanxiang-lts-zh-hans.gram
+          ls -lh yuyansdk/src/main/assets/rime/wanxiang-lts-zh-hans.gram
+
       - name: Prepare signing keystore
         run: |
           if [ -n "${{ secrets.KEYSTORE_BASE64 }}" ]; then
