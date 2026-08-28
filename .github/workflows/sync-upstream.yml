@@ -1,6 +1,8 @@
 name: Sync Upstream YuyanIme
 
 on:
+  push:
+    branches: [master]
   schedule:
     - cron: '0 2 * * *'  # 每天北京时间10:00
   workflow_dispatch:
