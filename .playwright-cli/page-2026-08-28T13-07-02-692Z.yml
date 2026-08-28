@@ -1,0 +1,2124 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e9]:
+      - heading "Navigation Menu" [level=2] [ref=e10]
+      - generic [ref=e11]:
+        - link "Homepage" [ref=e13] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e16]:
+          - navigation "Global" [ref=e17]:
+            - list [ref=e18]:
+              - listitem [ref=e19]:
+                - button "Platform" [ref=e21] [cursor=pointer]
+              - listitem [ref=e24]:
+                - button "Solutions" [ref=e26] [cursor=pointer]
+              - listitem [ref=e29]:
+                - button "Resources" [ref=e31] [cursor=pointer]
+              - listitem [ref=e34]:
+                - button "Open Source" [ref=e36] [cursor=pointer]
+              - listitem [ref=e39]:
+                - button "Enterprise" [ref=e41] [cursor=pointer]
+              - listitem [ref=e44]:
+                - link "Pricing" [ref=e45] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e46]:
+            - button "Search or jump to, type / to search" [ref=e48] [cursor=pointer]
+            - link "Sign in" [ref=e55] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Famzxyz%2Frime-wanxiang%2Freleases
+            - link "Sign up" [ref=e58] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Freleases%2Findex&source=header-repo&source_repo=amzxyz%2Frime-wanxiang
+            - button "Appearance settings" [ref=e61] [cursor=pointer]
+  - main [ref=e68]:
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e72]:
+          - link "amzxyz" [ref=e76] [cursor=pointer]:
+            - /url: /amzxyz
+          - generic [ref=e77]: /
+          - strong [ref=e78]:
+            - link "rime-wanxiang" [ref=e79] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang
+          - generic [ref=e80]: Public
+        - generic [ref=e81]:
+          - list:
+            - listitem [ref=e82]:
+              - link "You must be signed in to change notification settings" [ref=e83] [cursor=pointer]:
+                - /url: /login?return_to=%2Famzxyz%2Frime-wanxiang
+                - text: Notifications
+            - listitem [ref=e86]:
+              - link "Fork 168" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Famzxyz%2Frime-wanxiang
+                - text: Fork
+                - generic "168" [ref=e90]
+            - listitem [ref=e91]:
+              - link "You must be signed in to star a repository" [ref=e93] [cursor=pointer]:
+                - /url: /login?return_to=%2Famzxyz%2Frime-wanxiang
+                - text: Star
+                - generic "4464 users starred this repository" [ref=e96]: 4.5k
+      - navigation "Repository" [ref=e97]:
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - link "Code" [ref=e100] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang
+          - listitem [ref=e104]:
+            - link "Issues 3" [ref=e105] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/issues
+              - generic [ref=e109]: Issues
+              - generic "3" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Pull requests 1" [ref=e112] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/pulls
+              - generic [ref=e115]: Pull requests
+              - generic "1" [ref=e116]
+          - listitem [ref=e117]:
+            - link "Discussions" [ref=e118] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/discussions
+          - listitem [ref=e122]:
+            - link "Actions" [ref=e123] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/actions
+          - listitem [ref=e127]:
+            - link "Wiki" [ref=e128] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/wiki
+          - listitem [ref=e132]:
+            - link "Security and quality" [ref=e133] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/security
+          - listitem [ref=e137]:
+            - link "Insights" [ref=e138] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/pulse
+    - generic [ref=e143]:
+      - 'heading "Releases: amzxyz/rime-wanxiang" [level=1] [ref=e144]'
+      - generic [ref=e145]:
+        - generic [ref=e147]:
+          - navigation "Releases and Tags" [ref=e148]:
+            - link "Releases" [ref=e149] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/releases
+            - link "Tags" [ref=e150] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/tags
+          - searchbox "Find a release" [ref=e154]
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - heading "Release list" [level=2] [ref=e158]
+              - navigation "Release list navigation" [ref=e160]:
+                - list [ref=e162]:
+                  - listitem [ref=e163]:
+                    - link "🚀 实时全量预览版 (Rolling Preview)" [ref=e164] [cursor=pointer]:
+                      - /url: "#release-dict-nightly"
+                  - listitem [ref=e166]:
+                    - link "v17.7.1 Rime万象拼音输入方案" [ref=e167] [cursor=pointer]:
+                      - /url: "#release-v17.7.1"
+                  - listitem [ref=e169]:
+                    - link "v17.7.0 Rime万象拼音输入方案" [ref=e170] [cursor=pointer]:
+                      - /url: "#release-v17.7.0"
+                  - listitem [ref=e172]:
+                    - link "v17.6.0 Rime万象拼音输入方案" [ref=e173] [cursor=pointer]:
+                      - /url: "#release-v17.6.0"
+                  - listitem [ref=e175]:
+                    - link "v17.5.9 Rime万象拼音输入方案" [ref=e176] [cursor=pointer]:
+                      - /url: "#release-v17.5.9"
+                  - listitem [ref=e178]:
+                    - link "v17.5.8 Rime万象拼音输入方案" [ref=e179] [cursor=pointer]:
+                      - /url: "#release-v17.5.8"
+                  - listitem [ref=e181]:
+                    - link "v17.5.7 Rime万象拼音输入方案" [ref=e182] [cursor=pointer]:
+                      - /url: "#release-v17.5.7"
+                  - listitem [ref=e184]:
+                    - link "v17.5.6 Rime万象拼音输入方案" [ref=e185] [cursor=pointer]:
+                      - /url: "#release-v17.5.6"
+                  - listitem [ref=e187]:
+                    - link "v17.5.5 Rime万象拼音输入方案" [ref=e188] [cursor=pointer]:
+                      - /url: "#release-v17.5.5"
+                  - listitem [ref=e190]:
+                    - link "v17.5.4 Rime万象拼音输入方案" [ref=e191] [cursor=pointer]:
+                      - /url: "#release-v17.5.4"
+              - navigation "Release list pagination" [ref=e194]:
+                - link "Previous page" [disabled] [ref=e195]: Previous
+                - link "Next page" [ref=e196] [cursor=pointer]:
+                  - /url: /amzxyz/rime-wanxiang/releases?page=2
+                  - text: Next
+            - generic [ref=e197]:
+              - region [ref=e198]:
+                - heading "🚀 实时全量预览版 (Rolling Preview)" [level=2] [ref=e199]
+                - generic [ref=e202]:
+                  - generic [ref=e203]:
+                    - generic [ref=e204]:
+                      - generic [ref=e206]:
+                        - link "🚀 实时全量预览版 (Rolling Preview)" [ref=e208] [cursor=pointer]:
+                          - /url: /amzxyz/rime-wanxiang/releases/tag/dict-nightly
+                        - generic [ref=e209]: Pre-release
+                      - button "Compare" [ref=e214] [cursor=pointer]
+                    - generic [ref=e218]:
+                      - generic [ref=e219]:
+                        - img "@github-actions" [ref=e220]
+                        - link "github-actions" [ref=e221] [cursor=pointer]:
+                          - /url: /apps/github-actions
+                        - text: released this 28 Aug 10:51 2 hours ago
+                      - link [ref=e223] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/tree/dict-nightly
+                        - generic [ref=e224]:
+                          - img "Tag" [ref=e225]
+                          - text: dict-nightly
+                      - link [ref=e228] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/commit/a313e25ac2d63c1bd5c2fa03e7b566515fcbb9c9
+                        - img "Commit" [ref=e229]
+                        - code [ref=e231]: a313e25
+                    - generic [ref=e232]:
+                      - paragraph [ref=e233]:
+                        - generic [ref=e234]: ⚠️
+                        - strong [ref=e235]: 注意：这是由 CI 自动构建的最新开发预览版（Rolling Preview）。
+                      - paragraph [ref=e236]:
+                        - text: 包含了仓库最新的代码、方案和词库变动。此 Release 会在每次推送后
+                        - strong [ref=e237]: 被自动覆盖更新
+                        - text: 。 如果您追求稳定，请前往下载
+                        - link "🌟 最新正式版" [ref=e238] [cursor=pointer]:
+                          - /url: /amzxyz/rime-wanxiang/releases/latest
+                        - text: 。
+                      - separator [ref=e239]
+                      - heading "📦 产物说明 (Assets)" [level=3] [ref=e240]
+                      - heading "1️⃣ 完整方案包 (包含配置、Lua 脚本、词库等)" [level=4] [ref=e241]
+                      - list [ref=e242]:
+                        - listitem [ref=e243]:
+                          - code [ref=e244]: rime-wanxiang-base.zip
+                          - text: ": 标准版完整方案"
+                        - listitem [ref=e245]:
+                          - code [ref=e246]: rime-wanxiang-lite.zip
+                          - text: ": 无声调轻量版完整方案"
+                        - listitem [ref=e247]:
+                          - code [ref=e248]: rime-wanxiang-pure.zip
+                          - text: ": 精简版完整方案"
+                        - listitem [ref=e249]:
+                          - code [ref=e250]: rime-wanxiang-pro-*-fuzhu.zip
+                          - text: ": 携带各款辅助码的 Pro 版完整方案"
+                      - heading "2️⃣ 独立词库包 (仅含 dicts 目录下的文件，供单独覆盖升级)" [level=4] [ref=e251]
+                      - list [ref=e252]:
+                        - listitem [ref=e253]:
+                          - code [ref=e254]: base-dicts.zip
+                          - text: ": 标准版独立词库"
+                        - listitem [ref=e255]:
+                          - code [ref=e256]: lite-dicts.zip
+                          - text: ": 无声调轻量版独立词库"
+                        - listitem [ref=e257]:
+                          - code [ref=e258]: pure-dicts.zip
+                          - text: ": 精简版独立词库"
+                        - listitem [ref=e259]:
+                          - code [ref=e260]: pro-*-fuzhu-dicts.zip
+                          - text: ": 携带各款辅助码的独立词库"
+                        - listitem [ref=e261]:
+                          - strong [ref=e262]:
+                            - link "wanxiang-lts-zh-hans.gram" [ref=e263] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
+                          - text: ：与词库同步更新的语法模型
+                      - separator [ref=e264]
+                      - heading "🔄 最近 10 次代码变动" [level=3] [ref=e265]
+                      - list [ref=e266]:
+                        - listitem [ref=e267]:
+                          - text: "dict: 词库调整 ("
+                          - link "a313e25" [ref=e268] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/a313e25ac2d63c1bd5c2fa03e7b566515fcbb9c9
+                          - text: )
+                        - listitem [ref=e269]:
+                          - text: "chore: 添加AGENTS.md ("
+                          - link "bf0456b" [ref=e270] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/bf0456b19375203b79e3e1a28ce56bd5ef7ceef7
+                          - text: )
+                        - listitem [ref=e271]:
+                          - text: "dict: 词库调整 ("
+                          - link "d74d6e5" [ref=e272] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/d74d6e5459019b21f00075c5591954b232c34d6d
+                          - text: )
+                        - listitem [ref=e273]:
+                          - text: "chore(wanxiang): release 17.7.1 ("
+                          - link "4b86b19" [ref=e274] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/4b86b19fbc3e5968da3af3271ce36d8b320c5e73
+                          - text: )
+                        - listitem [ref=e275]:
+                          - text: "dict: 词库调整 ("
+                          - link "be5f1be" [ref=e276] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/be5f1be8db6f9acfb7938d13c16bb555a16c5db4
+                          - text: )
+                        - listitem [ref=e277]:
+                          - text: "dict: 词库调整 ("
+                          - link "5235267" [ref=e278] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/5235267f0786661e4b0f1126a7e11f6324de3f76
+                          - text: )
+                        - listitem [ref=e279]:
+                          - text: "fix: 修复随机工具配置读取 ("
+                          - link "b715c29" [ref=e280] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/b715c298a82ba2e20c3fd34ac1905822506e4d91
+                          - text: )
+                        - listitem [ref=e281]:
+                          - text: "fix: 优化正则排除斜杠 ("
+                          - link "80873f4" [ref=e282] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/80873f4fa45f306ac1a9032e72be954637591c16
+                          - text: )
+                        - listitem [ref=e283]:
+                          - text: "fix: 小优化 ("
+                          - link "984c09b" [ref=e284] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/984c09bc502ab7bf5a5773801aea59dc33e8931c
+                          - text: )
+                        - listitem [ref=e285]:
+                          - text: "fix: 修改转写 ("
+                          - link "94e5314" [ref=e286] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/94e5314984f670cb5785a72f28ea837eb1f41cb1
+                          - text: )
+                      - separator [ref=e287]
+                      - paragraph [ref=e288]:
+                        - strong [ref=e289]: 触发用户
+                        - text: ：
+                        - link "@amzxyz" [ref=e290] [cursor=pointer]:
+                          - /url: https://github.com/amzxyz
+                        - text: "|"
+                        - strong [ref=e291]: 构建分支
+                        - text: ：
+                        - code [ref=e292]: wanxiang
+                  - generic [ref=e293]:
+                    - generic [ref=e294]:
+                      - heading "Contributors" [level=3] [ref=e295]
+                      - list [ref=e296]:
+                        - listitem [ref=e297]:
+                          - link [ref=e298] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz
+                            - img "@amzxyz" [ref=e299]
+                      - generic [ref=e300]: amzxyz
+                    - group [ref=e303]:
+                      - button "Assets 26" [ref=e304] [cursor=pointer]:
+                        - generic [ref=e305]:
+                          - generic [ref=e306]: Assets
+                          - generic "26" [ref=e307]
+              - region [ref=e309]:
+                - heading "v17.7.1 Rime万象拼音输入方案" [level=2] [ref=e310]
+                - generic [ref=e313]:
+                  - generic [ref=e314]:
+                    - generic [ref=e315]:
+                      - generic [ref=e317]:
+                        - link "v17.7.1 Rime万象拼音输入方案" [ref=e319] [cursor=pointer]:
+                          - /url: /amzxyz/rime-wanxiang/releases/tag/v17.7.1
+                        - link "Latest" [ref=e321] [cursor=pointer]:
+                          - /url: /amzxyz/rime-wanxiang/releases/latest
+                      - button "Compare" [ref=e326] [cursor=pointer]
+                    - generic [ref=e330]:
+                      - generic [ref=e331]:
+                        - img "@github-actions" [ref=e332]
+                        - link "github-actions" [ref=e333] [cursor=pointer]:
+                          - /url: /apps/github-actions
+                        - text: released this 27 Aug 11:01 yesterday
+                      - link [ref=e335] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/tree/v17.7.1
+                        - generic [ref=e336]:
+                          - img "Tag" [ref=e337]
+                          - text: v17.7.1
+                      - link [ref=e340] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/commit/4b86b19fbc3e5968da3af3271ce36d8b320c5e73
+                        - img "Commit" [ref=e341]
+                        - code [ref=e343]: 4b86b19
+                    - generic [ref=e344]:
+                      - heading "更新日志" [level=2] [ref=e345]
+                      - heading "📚 词库更新" [level=3] [ref=e346]
+                      - list [ref=e347]:
+                        - listitem [ref=e348]: 词库调整（共2次）
+                      - heading "🐛 Bug 修复" [level=3] [ref=e349]
+                      - list [ref=e350]:
+                        - listitem [ref=e351]:
+                          - text: 优化正则排除斜杠 (
+                          - link "80873f4" [ref=e352] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/80873f4fa45f306ac1a9032e72be954637591c16
+                          - text: )
+                        - listitem [ref=e353]:
+                          - text: 修复清理顺序 (
+                          - link "d9a2117" [ref=e354] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/d9a21177db0c4028411c3d01ab4429c0963d94db
+                          - text: )
+                        - listitem [ref=e355]:
+                          - text: 修复随机工具配置读取 (
+                          - link "b715c29" [ref=e356] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/b715c298a82ba2e20c3fd34ac1905822506e4d91
+                          - text: )
+                        - listitem [ref=e357]:
+                          - text: 修改转写 (
+                          - link "94e5314" [ref=e358] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/94e5314984f670cb5785a72f28ea837eb1f41cb1
+                          - text: )
+                        - listitem [ref=e359]:
+                          - text: 小优化 (
+                          - link "984c09b" [ref=e360] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/984c09bc502ab7bf5a5773801aea59dc33e8931c
+                          - text: )
+                        - listitem [ref=e361]:
+                          - text: 小优化 (
+                          - link "a21a3b5" [ref=e362] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/a21a3b50866cb5bc6a19bf1f306bcfea727d5f1c
+                          - text: )
+                        - listitem [ref=e363]:
+                          - text: 测试完毕 (
+                          - link "9623260" [ref=e364] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/9623260bcb56fa6201acacaa5271f4d5f7b18345
+                          - text: )
+                      - separator [ref=e365]
+                      - heading "下载与选型指南" [level=2] [ref=e366]
+                      - list [ref=e367]:
+                        - listitem [ref=e368]:
+                          - paragraph [ref=e369]:
+                            - strong [ref=e370]: 标准版 (Base)
+                            - text: ：
+                            - link "下载方案" [ref=e371] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-base.zip
+                          - list [ref=e372]:
+                            - listitem [ref=e373]:
+                              - emphasis [ref=e374]: 适用人群
+                              - text: ：纯全拼、纯双拼用户。
+                        - listitem [ref=e375]:
+                          - paragraph [ref=e376]:
+                            - strong [ref=e377]: 轻量版 (Lite)(t9)
+                            - text: ：
+                            - link "下载方案" [ref=e378] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-lite.zip
+                          - list [ref=e379]:
+                            - listitem [ref=e380]:
+                              - emphasis [ref=e381]: 主要区别
+                              - text: ：无声调词库，减少部分 Lua 功能。t9与lite一起打包，使用无声调词库
+                        - listitem [ref=e382]:
+                          - paragraph [ref=e383]:
+                            - strong [ref=e384]: 精简版 (Pure)
+                            - text: ：
+                            - link "下载方案" [ref=e385] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-pure.zip
+                          - list [ref=e386]:
+                            - listitem [ref=e387]:
+                              - emphasis [ref=e388]: 适用人群
+                              - text: ：追求最小词库、仅需基础功能的用户。
+                            - listitem [ref=e389]:
+                              - emphasis [ref=e390]: 适用场景
+                              - text: ：Win7,fcitx4等低版本，不能使用lua插件的系统。
+                        - listitem [ref=e391]:
+                          - paragraph [ref=e392]:
+                            - strong [ref=e393]: 双拼辅助码增强版 (Pro)
+                            - text: ：均为独立完整配置包，含词库，支持任意双拼挂载，下载包等于选辅助码类型。
+                          - list [ref=e394]:
+                            - listitem [ref=e395]:
+                              - emphasis [ref=e396]: 适用人群
+                              - text: ：双拼+辅助码用户。
+                            - listitem [ref=e397]:
+                              - emphasis [ref=e398]: 版本选择
+                              - text: ：
+                              - link "自然码辅助" [ref=e399] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-zrm-fuzhu.zip
+                              - text: "|"
+                              - link "小鹤辅助" [ref=e400] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-flypy-fuzhu.zip
+                              - text: "|"
+                              - link "万象辅助" [ref=e401] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-wx-fuzhu.zip
+                              - text: "|"
+                              - link "首右辅助" [ref=e402] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-shouyou-fuzhu.zip
+                              - text: "|"
+                              - link "首右+辅助" [ref=e403] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-shyplus-fuzhu.zip
+                              - text: "|"
+                              - link "虎码首末辅助" [ref=e404] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-tiger-fuzhu.zip
+                              - text: "|"
+                              - link "墨奇辅助" [ref=e405] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-moqi-fuzhu.zip
+                              - text: "|"
+                              - link "五笔前2辅助" [ref=e406] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-wubi-fuzhu.zip
+                              - text: "|"
+                              - link "汉心辅助" [ref=e407] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-hanxin-fuzhu.zip
+                        - listitem [ref=e408]:
+                          - paragraph [ref=e409]:
+                            - strong [ref=e410]: 大模型语法包 (必装组件)
+                            - text: ：
+                            - link "点击下载语法模型" [ref=e411] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
+                          - list [ref=e412]:
+                            - listitem [ref=e413]:
+                              - emphasis [ref=e414]: 使用说明
+                              - text: ：
+                              - strong [ref=e415]: 所有版本（Base/Lite/Pure/Pro）用户均必须下载此文件
+                              - text: 。下载后直接放入输入法用户目录根目录（与方案文件放一起），无需任何额外配置。
+                      - separator [ref=e416]
+                      - heading "分发渠道与周边生态" [level=2] [ref=e417]
+                      - list [ref=e418]:
+                        - listitem [ref=e419]:
+                          - strong [ref=e420]: Linux 仓库
+                          - text: ：
+                          - list [ref=e421]:
+                            - listitem [ref=e422]:
+                              - emphasis [ref=e423]: Arch Linux
+                              - text: ：启用
+                              - link "Arch Linux CN 仓库" [ref=e424] [cursor=pointer]:
+                                - /url: https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/
+                              - text: 安装。基础版：
+                              - code [ref=e425]: rime-wanxiang-[方案名]
+                              - text: ；增强版：
+                              - code [ref=e426]: rime-wanxiang-pro-[方案名]
+                            - listitem [ref=e427]:
+                              - emphasis [ref=e428]: deepin 25
+                              - text: ：已并入官方系统仓库，支持
+                              - code [ref=e429]: apt install
+                              - text: 部署
+                        - listitem [ref=e430]:
+                          - strong [ref=e431]: 周边生态
+                          - text: ：
+                          - list [ref=e432]:
+                            - listitem [ref=e433]:
+                              - link "仓输入法皮肤推荐" [ref=e434] [cursor=pointer]:
+                                - /url: https://github.com/BlackCCCat/ResourceforHamster/tree/main/Skin_Keyboard/
+                              - text: "|"
+                              - link "高级版本管理更新脚本" [ref=e435] [cursor=pointer]:
+                                - /url: https://github.com/rimeinn/rime-wanxiang-update-tools
+                              - text: "|"
+                              - link "万象 CNB 国内镜像源" [ref=e436] [cursor=pointer]:
+                                - /url: https://cnb.cool/amzxyz/rime-wanxiang
+                  - generic [ref=e437]:
+                    - group [ref=e440]:
+                      - button "Assets 14" [expanded] [ref=e441] [cursor=pointer]:
+                        - generic [ref=e442]:
+                          - generic [ref=e443]: Assets
+                          - generic "14" [ref=e444]
+                      - list [ref=e448]:
+                        - listitem [ref=e449]:
+                          - link "rime-wanxiang-base.zip" [ref=e453] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-base.zip
+                          - generic [ref=e456]:
+                            - generic [ref=e457]:
+                              - generic [ref=e458]: sha256:edaf30145008b50155b769d9476222147a6d634cc4796893a45ac42054a62e5e
+                              - button "Copy to clipboard digest for rime-wanxiang-base.zip" [ref=e461] [cursor=pointer]
+                            - generic [ref=e466]: 33.4 MB
+                            - generic [ref=e467]: 2026-08-27T11:01:17Zyesterday
+                        - listitem [ref=e468]:
+                          - link "rime-wanxiang-flypy-fuzhu.zip" [ref=e472] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-flypy-fuzhu.zip
+                          - generic [ref=e475]:
+                            - generic [ref=e476]:
+                              - generic [ref=e477]: sha256:44402317aa7f4263878f23539c50ff462cf81e510ccc865a051ff58b3dd1c550
+                              - button "Copy to clipboard digest for rime-wanxiang-flypy-fuzhu.zip" [ref=e480] [cursor=pointer]
+                            - generic [ref=e485]: 39.3 MB
+                            - generic [ref=e486]: 2026-08-27T11:01:17Zyesterday
+                        - listitem [ref=e487]:
+                          - link "rime-wanxiang-hanxin-fuzhu.zip" [ref=e491] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-hanxin-fuzhu.zip
+                          - generic [ref=e494]:
+                            - generic [ref=e495]:
+                              - generic [ref=e496]: sha256:ac140cb924de9d0509102c5c6ec13a8c9112d4c5c7a790296b6ee0334f6af9a4
+                              - button "Copy to clipboard digest for rime-wanxiang-hanxin-fuzhu.zip" [ref=e499] [cursor=pointer]
+                            - generic [ref=e504]: 39 MB
+                            - generic [ref=e505]: 2026-08-27T11:01:17Zyesterday
+                        - listitem [ref=e506]:
+                          - link "rime-wanxiang-lite.zip" [ref=e510] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-lite.zip
+                          - generic [ref=e513]:
+                            - generic [ref=e514]:
+                              - generic [ref=e515]: sha256:97b689a1eb379923fd3e0131f16a2537e13018b18a7da28f9cf029945634d977
+                              - button "Copy to clipboard digest for rime-wanxiang-lite.zip" [ref=e518] [cursor=pointer]
+                            - generic [ref=e523]: 30.7 MB
+                            - generic [ref=e524]: 2026-08-27T11:01:17Zyesterday
+                        - listitem [ref=e525]:
+                          - link "rime-wanxiang-moqi-fuzhu.zip" [ref=e529] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-moqi-fuzhu.zip
+                          - generic [ref=e532]:
+                            - generic [ref=e533]:
+                              - generic [ref=e534]: sha256:9e6a590687c78361846acc500551af0b665b5465e0726b7293691001d1162c3e
+                              - button "Copy to clipboard digest for rime-wanxiang-moqi-fuzhu.zip" [ref=e537] [cursor=pointer]
+                            - generic [ref=e542]: 39.5 MB
+                            - generic [ref=e543]: 2026-08-27T11:01:17Zyesterday
+                        - listitem [ref=e544]:
+                          - link "rime-wanxiang-pure.zip" [ref=e548] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-pure.zip
+                          - generic [ref=e551]:
+                            - generic [ref=e552]:
+                              - generic [ref=e553]: sha256:c99a6d6e13508ec970d8f815d3319fe45960b1094e5fcd3a4b98aac366b20bc8
+                              - button "Copy to clipboard digest for rime-wanxiang-pure.zip" [ref=e556] [cursor=pointer]
+                            - generic [ref=e561]: 35.8 MB
+                            - generic [ref=e562]: 2026-08-27T11:01:18Zyesterday
+                        - listitem [ref=e563]:
+                          - link "rime-wanxiang-shouyou-fuzhu.zip" [ref=e567] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-shouyou-fuzhu.zip
+                          - generic [ref=e570]:
+                            - generic [ref=e571]:
+                              - generic [ref=e572]: sha256:2a4e63c6b9bd7e6eeb6c7674f7e6e4540c800d02975be39b45dfcce37367a1de
+                              - button "Copy to clipboard digest for rime-wanxiang-shouyou-fuzhu.zip" [ref=e575] [cursor=pointer]
+                            - generic [ref=e580]: 38.6 MB
+                            - generic [ref=e581]: 2026-08-27T11:01:18Zyesterday
+                        - listitem [ref=e582]:
+                          - link "rime-wanxiang-shyplus-fuzhu.zip" [ref=e586] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-shyplus-fuzhu.zip
+                          - generic [ref=e589]:
+                            - generic [ref=e590]:
+                              - generic [ref=e591]: sha256:44e7f513ca116331258e54ffcd04f846fb41a9409e7849f1684d1093bffd603a
+                              - button "Copy to clipboard digest for rime-wanxiang-shyplus-fuzhu.zip" [ref=e594] [cursor=pointer]
+                            - generic [ref=e599]: 38.9 MB
+                            - generic [ref=e600]: 2026-08-27T11:01:18Zyesterday
+                        - listitem [ref=e601]:
+                          - link "rime-wanxiang-tiger-fuzhu.zip" [ref=e605] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-tiger-fuzhu.zip
+                          - generic [ref=e608]:
+                            - generic [ref=e609]:
+                              - generic [ref=e610]: sha256:84e6e3376de53e7a4f032f5c89615f6a78e5c2e72686146460d2bd3b806eac8d
+                              - button "Copy to clipboard digest for rime-wanxiang-tiger-fuzhu.zip" [ref=e613] [cursor=pointer]
+                            - generic [ref=e618]: 39.4 MB
+                            - generic [ref=e619]: 2026-08-27T11:01:18Zyesterday
+                        - listitem [ref=e620]:
+                          - link "rime-wanxiang-wubi-fuzhu.zip" [ref=e624] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/releases/download/v17.7.1/rime-wanxiang-wubi-fuzhu.zip
+                          - generic [ref=e627]:
+                            - generic [ref=e628]:
+                              - generic [ref=e629]: sha256:bf2d11f8f9da43292f6ebdefb1048487bc76157d845d3b2fb1ba9aad18be7bad
+                              - button "Copy to clipboard digest for rime-wanxiang-wubi-fuzhu.zip" [ref=e632] [cursor=pointer]
+                            - generic [ref=e637]: 39.2 MB
+                            - generic [ref=e638]: 2026-08-27T11:01:19Zyesterday
+                        - listitem [ref=e639]:
+                          - link "Source code (zip)" [ref=e643] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/archive/refs/tags/v17.7.1.zip
+                            - generic [ref=e644]: Source code
+                            - generic [ref=e645]: (zip)
+                          - generic [ref=e646]: 2026-08-27T10:55:18Zyesterday
+                        - listitem [ref=e648]:
+                          - link "Source code (tar.gz)" [ref=e652] [cursor=pointer]:
+                            - /url: /amzxyz/rime-wanxiang/archive/refs/tags/v17.7.1.tar.gz
+                            - generic [ref=e653]: Source code
+                            - generic [ref=e654]: (tar.gz)
+                          - generic [ref=e655]: 2026-08-27T10:55:18Zyesterday
+                        - listitem [ref=e657]:
+                          - button "Show all 14 assets" [ref=e659] [cursor=pointer]
+                    - generic [ref=e661]:
+                      - generic [ref=e663]:
+                        - 'button "thumbs up (1): github-actions[bot], 10:55AM yesterday" [disabled] [ref=e664]':
+                          - img "+1" [ref=e666]
+                          - generic [ref=e667]: "1"
+                        - 'button "heart (1): github-actions[bot], 10:55AM yesterday" [disabled] [ref=e668]':
+                          - img "heart" [ref=e670]
+                          - generic [ref=e671]: "1"
+                        - 'button "rocket (1): github-actions[bot], 10:55AM yesterday" [disabled] [ref=e672]':
+                          - img "rocket" [ref=e674]
+                          - generic [ref=e675]: "1"
+                      - generic [ref=e676]: 1 person reacted
+              - region [ref=e677]:
+                - heading "v17.7.0 Rime万象拼音输入方案" [level=2] [ref=e678]
+                - generic [ref=e681]:
+                  - generic [ref=e682]:
+                    - generic [ref=e683]:
+                      - link "v17.7.0 Rime万象拼音输入方案" [ref=e687] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/releases/tag/v17.7.0
+                      - button "Compare" [ref=e692] [cursor=pointer]
+                    - generic [ref=e696]:
+                      - generic [ref=e697]:
+                        - img "@github-actions" [ref=e698]
+                        - link "github-actions" [ref=e699] [cursor=pointer]:
+                          - /url: /apps/github-actions
+                        - text: released this 27 Aug 03:55 yesterday
+                      - link [ref=e701] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/tree/v17.7.0
+                        - generic [ref=e702]:
+                          - img "Tag" [ref=e703]
+                          - text: v17.7.0
+                      - link [ref=e706] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/commit/493347a47169c47c0274571b44aaf2f244819cc2
+                        - img "Commit" [ref=e707]
+                        - code [ref=e709]: 493347a
+                    - generic [ref=e710]:
+                      - heading "更新日志" [level=2] [ref=e711]
+                      - heading "✨ 新特性" [level=3] [ref=e712]
+                      - list [ref=e713]:
+                        - listitem [ref=e714]:
+                          - text: 新增uuid4,uuid7,ulid,随机密码 (
+                          - link "25251f9" [ref=e715] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/25251f9f2eb0b4ead1ecd0d9e66921fcb943952c
+                          - text: )
+                      - heading "🔥 性能优化" [level=3] [ref=e716]
+                      - list [ref=e717]:
+                        - listitem [ref=e718]:
+                          - text: 优化Lua 对象生命周期与内存占用，降低长期运行内存增长风险,来自最近Windows总是与Lua似乎兼容不好有的人没事有的人觉得卡，现在也是在找原因，如果代码可以规避我们就规避一下，虽然API写起来很简约优雅，rime/librime
+                          - link "#405" [ref=e719] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/issues/405
+                          - text: ", rime/librime"
+                          - link "#1105" [ref=e720] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/issues/1105
+                          - text: ，本次将采用发布式测试，希望更多的人反馈 (
+                          - link "6abcd07" [ref=e721] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/6abcd07da52a11eb180ac4d5fd6e5c50e7582905
+                          - text: )
+                      - heading "🐛 Bug 修复" [level=3] [ref=e722]
+                      - list [ref=e723]:
+                        - listitem [ref=e724]:
+                          - text: t9将与lite一同打包 (
+                          - link "be17474" [ref=e725] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/be174745df5ae41447ffa3b086ca527153c08326
+                          - text: )
+                        - listitem [ref=e726]:
+                          - text: 弹出候选预测与上下文调频功能缩减成只有上下文调频+量词调频+回退再次输入掉头，Lua实现的弹出涉及到input占用多少还是不好用，权衡之下去掉了，有需要的朋友参考以前的可以继续用 (
+                          - link "9e81c71" [ref=e727] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/9e81c710268b2d234225552a3d285e56f738af3f
+                          - text: )
+                        - listitem [ref=e728]:
+                          - text: 移除无效参数 (
+                          - link "f92ddaf" [ref=e729] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/f92ddafd6482b3a432d69bdcba53d799dbcb0bb5
+                          - text: )
+                      - heading "🏡 杂项" [level=3] [ref=e730]
+                      - list [ref=e731]:
+                        - listitem [ref=e732]:
+                          - text: 更新文档 (
+                          - link "209b1ba" [ref=e733] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/209b1ba50e2d6b8efba2cb19e8ca8550b40d4e59
+                          - text: )
+                      - separator [ref=e734]
+                      - heading "下载与选型指南" [level=2] [ref=e735]
+                      - list [ref=e736]:
+                        - listitem [ref=e737]:
+                          - paragraph [ref=e738]:
+                            - strong [ref=e739]: 标准版 (Base)
+                            - text: ：
+                            - link "下载方案" [ref=e740] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-base.zip
+                          - list [ref=e741]:
+                            - listitem [ref=e742]:
+                              - emphasis [ref=e743]: 适用人群
+                              - text: ：纯全拼、纯双拼用户。
+                        - listitem [ref=e744]:
+                          - paragraph [ref=e745]:
+                            - strong [ref=e746]: 轻量版 (Lite)(t9)
+                            - text: ：
+                            - link "下载方案" [ref=e747] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-lite.zip
+                          - list [ref=e748]:
+                            - listitem [ref=e749]:
+                              - emphasis [ref=e750]: 主要区别
+                              - text: ：无声调词库，减少部分 Lua 功能。t9与lite一起打包，使用无声调词库
+                        - listitem [ref=e751]:
+                          - paragraph [ref=e752]:
+                            - strong [ref=e753]: 精简版 (Pure)
+                            - text: ：
+                            - link "下载方案" [ref=e754] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-pure.zip
+                          - list [ref=e755]:
+                            - listitem [ref=e756]:
+                              - emphasis [ref=e757]: 适用人群
+                              - text: ：追求最小词库、仅需基础功能的用户。
+                            - listitem [ref=e758]:
+                              - emphasis [ref=e759]: 适用场景
+                              - text: ：Win7,fcitx4等低版本，不能使用lua插件的系统。
+                        - listitem [ref=e760]:
+                          - paragraph [ref=e761]:
+                            - strong [ref=e762]: 双拼辅助码增强版 (Pro)
+                            - text: ：均为独立完整配置包，含词库，支持任意双拼挂载，下载包等于选辅助码类型。
+                          - list [ref=e763]:
+                            - listitem [ref=e764]:
+                              - emphasis [ref=e765]: 适用人群
+                              - text: ：双拼+辅助码用户。
+                            - listitem [ref=e766]:
+                              - emphasis [ref=e767]: 版本选择
+                              - text: ：
+                              - link "自然码辅助" [ref=e768] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-zrm-fuzhu.zip
+                              - text: "|"
+                              - link "小鹤辅助" [ref=e769] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-flypy-fuzhu.zip
+                              - text: "|"
+                              - link "万象辅助" [ref=e770] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-wx-fuzhu.zip
+                              - text: "|"
+                              - link "首右辅助" [ref=e771] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-shouyou-fuzhu.zip
+                              - text: "|"
+                              - link "首右+辅助" [ref=e772] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-shyplus-fuzhu.zip
+                              - text: "|"
+                              - link "虎码首末辅助" [ref=e773] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-tiger-fuzhu.zip
+                              - text: "|"
+                              - link "墨奇辅助" [ref=e774] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-moqi-fuzhu.zip
+                              - text: "|"
+                              - link "五笔前2辅助" [ref=e775] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-wubi-fuzhu.zip
+                              - text: "|"
+                              - link "汉心辅助" [ref=e776] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.7.0/rime-wanxiang-hanxin-fuzhu.zip
+                        - listitem [ref=e777]:
+                          - paragraph [ref=e778]:
+                            - strong [ref=e779]: 大模型语法包 (必装组件)
+                            - text: ：
+                            - link "点击下载语法模型" [ref=e780] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
+                          - list [ref=e781]:
+                            - listitem [ref=e782]:
+                              - emphasis [ref=e783]: 使用说明
+                              - text: ：
+                              - strong [ref=e784]: 所有版本（Base/Lite/Pure/Pro）用户均必须下载此文件
+                              - text: 。下载后直接放入输入法用户目录根目录（与方案文件放一起），无需任何额外配置。
+                      - separator [ref=e785]
+                      - heading "分发渠道与周边生态" [level=2] [ref=e786]
+                      - list [ref=e787]:
+                        - listitem [ref=e788]:
+                          - strong [ref=e789]: Linux 仓库
+                          - text: ：
+                          - list [ref=e790]:
+                            - listitem [ref=e791]:
+                              - emphasis [ref=e792]: Arch Linux
+                              - text: ：启用
+                              - link "Arch Linux CN 仓库" [ref=e793] [cursor=pointer]:
+                                - /url: https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/
+                              - text: 安装。基础版：
+                              - code [ref=e794]: rime-wanxiang-[方案名]
+                              - text: ；增强版：
+                              - code [ref=e795]: rime-wanxiang-pro-[方案名]
+                            - listitem [ref=e796]:
+                              - emphasis [ref=e797]: deepin 25
+                              - text: ：已并入官方系统仓库，支持
+                              - code [ref=e798]: apt install
+                              - text: 部署
+                        - listitem [ref=e799]:
+                          - strong [ref=e800]: 周边生态
+                          - text: ：
+                          - list [ref=e801]:
+                            - listitem [ref=e802]:
+                              - link "仓输入法皮肤推荐" [ref=e803] [cursor=pointer]:
+                                - /url: https://github.com/BlackCCCat/ResourceforHamster/tree/main/Skin_Keyboard/
+                              - text: "|"
+                              - link "高级版本管理更新脚本" [ref=e804] [cursor=pointer]:
+                                - /url: https://github.com/rimeinn/rime-wanxiang-update-tools
+                              - text: "|"
+                              - link "万象 CNB 国内镜像源" [ref=e805] [cursor=pointer]:
+                                - /url: https://cnb.cool/amzxyz/rime-wanxiang
+                  - group [ref=e809]:
+                    - button "Assets 14" [ref=e810] [cursor=pointer]:
+                      - generic [ref=e811]:
+                        - generic [ref=e812]: Assets
+                        - generic "14" [ref=e813]
+              - region [ref=e815]:
+                - heading "v17.6.0 Rime万象拼音输入方案" [level=2] [ref=e816]
+                - generic [ref=e819]:
+                  - generic [ref=e820]:
+                    - generic [ref=e821]:
+                      - link "v17.6.0 Rime万象拼音输入方案" [ref=e825] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/releases/tag/v17.6.0
+                      - button "Compare" [ref=e830] [cursor=pointer]
+                    - generic [ref=e834]:
+                      - generic [ref=e835]:
+                        - img "@github-actions" [ref=e836]
+                        - link "github-actions" [ref=e837] [cursor=pointer]:
+                          - /url: /apps/github-actions
+                        - text: released this 26 Aug 13:52 2 days ago
+                      - link [ref=e839] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/tree/v17.6.0
+                        - generic [ref=e840]:
+                          - img "Tag" [ref=e841]
+                          - text: v17.6.0
+                      - link [ref=e844] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/commit/05f9280511f32a5bd22ac8579842220832e1ba79
+                        - img "Commit" [ref=e845]
+                        - code [ref=e847]: 05f9280
+                    - generic [ref=e848]:
+                      - heading "更新日志" [level=2] [ref=e849]
+                      - heading "✨ 新特性" [level=3] [ref=e850]
+                      - list [ref=e851]:
+                        - listitem [ref=e852]:
+                          - text: 新增万象Lite方案版本 (
+                          - link "fc818c1" [ref=e853] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/fc818c1f7f6aa857b3857dc8293d354c9724d43f
+                          - text: )
+                        - listitem [ref=e854]:
+                          - text: 调整脚本引用 (
+                          - link "7043803" [ref=e855] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/704380392a046c6089dfb8521ed07f6cc184e765
+                          - text: )
+                      - heading "📚 词库更新" [level=3] [ref=e856]
+                      - list [ref=e857]:
+                        - listitem [ref=e858]: 词库调整（共1次）
+                      - heading "🐛 Bug 修复" [level=3] [ref=e859]
+                      - list [ref=e860]:
+                        - listitem [ref=e861]:
+                          - text: lite版本release引导 (
+                          - link "d3d3ccc" [ref=e862] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/d3d3ccc45f63aa527aad72a503d511787f583d5e
+                          - text: )
+                        - listitem [ref=e863]:
+                          - text: update ci (
+                          - link "943f395" [ref=e864] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/943f395914af0e2912175ce9b27274d1c3026bff
+                          - text: )
+                        - listitem [ref=e865]:
+                          - text: update custom (
+                          - link "959f2af" [ref=e866] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/959f2af53343684cf547767da6172a39a92489c6
+                          - text: )
+                        - listitem [ref=e867]:
+                          - text: 优化replacer (
+                          - link "035b14c" [ref=e868] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/035b14c8d61601a3eda9402a6f0e3a17f75f2eca
+                          - text: )
+                        - listitem [ref=e869]:
+                          - text: 优化super_comment以支持多种方案 (
+                          - link "1e4fed4" [ref=e870] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/1e4fed412d65183cd29ef913100f3f47e974d42c
+                          - text: )
+                        - listitem [ref=e871]:
+                          - text: 优化统计 (
+                          - link "a6be127" [ref=e872] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/a6be12701b90505e73277750aef44ffabf835fd6
+                          - text: )
+                        - listitem [ref=e873]:
+                          - text: 修正tips提示 (
+                          - link "6bdf902" [ref=e874] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/6bdf902bcfcd603325b825d66ebae0592e852f0f
+                          - text: )
+                        - listitem [ref=e875]:
+                          - text: 修正野鹤拆 (
+                          - link "146600e" [ref=e876] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/146600ef7fe021e42fd8800ff0acffe86388d1ad
+                          - text: )
+                        - listitem [ref=e877]:
+                          - text: 更新正则 (
+                          - link "af32687" [ref=e878] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/af3268791913b13711e500eaa95f7223ab727536
+                          - text: )
+                      - heading "🏡 杂项" [level=3] [ref=e879]
+                      - list [ref=e880]:
+                        - listitem [ref=e881]:
+                          - text: update doc (
+                          - link "4d338a2" [ref=e882] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/4d338a2151a238a16313b822e5cd8fc32705f0b7
+                          - text: )
+                        - listitem [ref=e883]:
+                          - text: 完善文档 (
+                          - link "227b610" [ref=e884] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/227b610b112cb93b3bf3e1934e3d863284e05531
+                          - text: )
+                      - separator [ref=e885]
+                      - heading "下载与选型指南" [level=2] [ref=e886]
+                      - list [ref=e887]:
+                        - listitem [ref=e888]:
+                          - paragraph [ref=e889]:
+                            - strong [ref=e890]: 标准版 (Base)
+                            - text: ：
+                            - link "下载方案" [ref=e891] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-base.zip
+                          - list [ref=e892]:
+                            - listitem [ref=e893]:
+                              - emphasis [ref=e894]: 适用人群
+                              - text: ：纯全拼、纯双拼用户。
+                        - listitem [ref=e895]:
+                          - paragraph [ref=e896]:
+                            - strong [ref=e897]: 轻量版 (Lite)
+                            - text: ：
+                            - link "下载方案" [ref=e898] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-lite.zip
+                          - list [ref=e899]:
+                            - listitem [ref=e900]:
+                              - emphasis [ref=e901]: 主要区别
+                              - text: ：无声调词库，减少部分 Lua 功能。
+                        - listitem [ref=e902]:
+                          - paragraph [ref=e903]:
+                            - strong [ref=e904]: 精简版 (Pure)
+                            - text: ：
+                            - link "下载方案" [ref=e905] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-pure.zip
+                          - list [ref=e906]:
+                            - listitem [ref=e907]:
+                              - emphasis [ref=e908]: 适用人群
+                              - text: ：追求最小词库、仅需基础功能的用户。
+                            - listitem [ref=e909]:
+                              - emphasis [ref=e910]: 适用场景
+                              - text: ：Win7,fcitx4等低版本，不能使用lua插件的系统。
+                        - listitem [ref=e911]:
+                          - paragraph [ref=e912]:
+                            - strong [ref=e913]: 双拼辅助码增强版 (Pro)
+                            - text: ：均为独立完整配置包，含词库，支持任意双拼挂载，下载包等于选辅助码类型。
+                          - list [ref=e914]:
+                            - listitem [ref=e915]:
+                              - emphasis [ref=e916]: 适用人群
+                              - text: ：双拼+辅助码用户。
+                            - listitem [ref=e917]:
+                              - emphasis [ref=e918]: 版本选择
+                              - text: ：
+                              - link "自然码辅助" [ref=e919] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-zrm-fuzhu.zip
+                              - text: "|"
+                              - link "小鹤辅助" [ref=e920] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-flypy-fuzhu.zip
+                              - text: "|"
+                              - link "万象辅助" [ref=e921] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-wx-fuzhu.zip
+                              - text: "|"
+                              - link "首右辅助" [ref=e922] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-shouyou-fuzhu.zip
+                              - text: "|"
+                              - link "首右+辅助" [ref=e923] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-shyplus-fuzhu.zip
+                              - text: "|"
+                              - link "虎码首末辅助" [ref=e924] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-tiger-fuzhu.zip
+                              - text: "|"
+                              - link "墨奇辅助" [ref=e925] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-moqi-fuzhu.zip
+                              - text: "|"
+                              - link "五笔前2辅助" [ref=e926] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-wubi-fuzhu.zip
+                              - text: "|"
+                              - link "汉心辅助" [ref=e927] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.6.0/rime-wanxiang-hanxin-fuzhu.zip
+                        - listitem [ref=e928]:
+                          - paragraph [ref=e929]:
+                            - strong [ref=e930]: 大模型语法包 (必装组件)
+                            - text: ：
+                            - link "点击下载语法模型" [ref=e931] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
+                          - list [ref=e932]:
+                            - listitem [ref=e933]:
+                              - emphasis [ref=e934]: 使用说明
+                              - text: ：
+                              - strong [ref=e935]: 所有版本（Base/Lite/Pure/Pro）用户均必须下载此文件
+                              - text: 。下载后直接放入输入法用户目录根目录（与方案文件放一起），无需任何额外配置。
+                      - separator [ref=e936]
+                      - heading "分发渠道与周边生态" [level=2] [ref=e937]
+                      - list [ref=e938]:
+                        - listitem [ref=e939]:
+                          - strong [ref=e940]: Linux 仓库
+                          - text: ：
+                          - list [ref=e941]:
+                            - listitem [ref=e942]:
+                              - emphasis [ref=e943]: Arch Linux
+                              - text: ：启用
+                              - link "Arch Linux CN 仓库" [ref=e944] [cursor=pointer]:
+                                - /url: https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/
+                              - text: 安装。基础版：
+                              - code [ref=e945]: rime-wanxiang-[方案名]
+                              - text: ；增强版：
+                              - code [ref=e946]: rime-wanxiang-pro-[方案名]
+                            - listitem [ref=e947]:
+                              - emphasis [ref=e948]: deepin 25
+                              - text: ：已并入官方系统仓库，支持
+                              - code [ref=e949]: apt install
+                              - text: 部署
+                        - listitem [ref=e950]:
+                          - strong [ref=e951]: 周边生态
+                          - text: ：
+                          - list [ref=e952]:
+                            - listitem [ref=e953]:
+                              - link "仓输入法皮肤推荐" [ref=e954] [cursor=pointer]:
+                                - /url: https://github.com/BlackCCCat/ResourceforHamster/tree/main/Skin_Keyboard/
+                              - text: "|"
+                              - link "高级版本管理更新脚本" [ref=e955] [cursor=pointer]:
+                                - /url: https://github.com/rimeinn/rime-wanxiang-update-tools
+                              - text: "|"
+                              - link "万象 CNB 国内镜像源" [ref=e956] [cursor=pointer]:
+                                - /url: https://cnb.cool/amzxyz/rime-wanxiang
+                  - generic [ref=e957]:
+                    - group [ref=e960]:
+                      - button "Assets 14" [ref=e961] [cursor=pointer]:
+                        - generic [ref=e962]:
+                          - generic [ref=e963]: Assets
+                          - generic "14" [ref=e964]
+                    - generic [ref=e966]:
+                      - generic [ref=e968]:
+                        - 'button "thumbs up (1): github-actions[bot], 01:45PM on August 26" [disabled] [ref=e969]':
+                          - img "+1" [ref=e971]
+                          - generic [ref=e972]: "1"
+                        - 'button "hooray (1): github-actions[bot], 01:45PM on August 26" [disabled] [ref=e973]':
+                          - img "tada" [ref=e975]
+                          - generic [ref=e976]: "1"
+                        - 'button "heart (1): github-actions[bot], 01:45PM on August 26" [disabled] [ref=e977]':
+                          - img "heart" [ref=e979]
+                          - generic [ref=e980]: "1"
+                        - 'button "rocket (1): github-actions[bot], 01:45PM on August 26" [disabled] [ref=e981]':
+                          - img "rocket" [ref=e983]
+                          - generic [ref=e984]: "1"
+                      - generic [ref=e985]: 1 person reacted
+              - region [ref=e986]:
+                - heading "v17.5.9 Rime万象拼音输入方案" [level=2] [ref=e987]
+                - generic [ref=e990]:
+                  - generic [ref=e991]:
+                    - generic [ref=e992]:
+                      - link "v17.5.9 Rime万象拼音输入方案" [ref=e996] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/releases/tag/v17.5.9
+                      - button "Compare" [ref=e1001] [cursor=pointer]
+                    - generic [ref=e1005]:
+                      - generic [ref=e1006]:
+                        - img "@github-actions" [ref=e1007]
+                        - link "github-actions" [ref=e1008] [cursor=pointer]:
+                          - /url: /apps/github-actions
+                        - text: released this 24 Aug 17:50 4 days ago
+                      - link [ref=e1010] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/tree/v17.5.9
+                        - generic [ref=e1011]:
+                          - img "Tag" [ref=e1012]
+                          - text: v17.5.9
+                      - link [ref=e1015] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/commit/7aefc0cc38e744e33cd18e6abd5996c00a8d2c5a
+                        - img "Commit" [ref=e1016]
+                        - code [ref=e1018]: 7aefc0c
+                    - generic [ref=e1019]:
+                      - heading "更新日志" [level=2] [ref=e1020]
+                      - heading "🐛 Bug 修复" [level=3] [ref=e1021]
+                      - list [ref=e1022]:
+                        - listitem [ref=e1023]:
+                          - text: 移除super_replacer缓存 (
+                          - link "0107989" [ref=e1024] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/0107989ec8f2d625ab00abc41f4826779fce1845
+                          - text: )
+                        - listitem [ref=e1025]:
+                          - text: 给super_replacer加了一层全局部署标记，只在加载文件后填充值，有值就直接opendb，部署后销毁无值，则启动校验，如果数据没变依然能很快完成 (
+                          - link "5142dbb" [ref=e1026] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/5142dbb3ace721f12ed0a4194b2a432964dd1497
+                          - text: )
+                        - listitem [ref=e1027]:
+                          - text: 给super_tips加了一层全局部署标记，只在加载文件后填充值，有值就直接opendb，部署后销毁无值，则启动校验，如果数据没变依然能很快完成 (
+                          - link "e7f08f6" [ref=e1028] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/e7f08f64f48076a07df265289d7beb401fd9fd34
+                          - text: )
+                      - heading "🏡 杂项" [level=3] [ref=e1029]
+                      - list [ref=e1030]:
+                        - listitem [ref=e1031]:
+                          - text: doc update (
+                          - link "4459a27" [ref=e1032] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/4459a27e1cb0d9895890a5cfaff63c000198ba70
+                          - text: )
+                        - listitem [ref=e1033]:
+                          - text: update doc (
+                          - link "15243dd" [ref=e1034] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/15243dd3833f7fe4bd029209625d48efb0e0646d
+                          - text: )
+                      - separator [ref=e1035]
+                      - heading "下载与选型指南" [level=2] [ref=e1036]
+                      - list [ref=e1037]:
+                        - listitem [ref=e1038]:
+                          - paragraph [ref=e1039]:
+                            - strong [ref=e1040]: 标准版 (Base)
+                            - text: ：
+                            - link "下载方案" [ref=e1041] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.9/rime-wanxiang-base.zip
+                          - list [ref=e1042]:
+                            - listitem [ref=e1043]:
+                              - emphasis [ref=e1044]: 适用人群
+                              - text: ：纯全拼、纯双拼用户。
+                        - listitem [ref=e1045]:
+                          - paragraph [ref=e1046]:
+                            - strong [ref=e1047]: 精简版 (Pure)
+                            - text: ：
+                            - link "下载方案" [ref=e1048] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.9/rime-wanxiang-pure.zip
+                          - list [ref=e1049]:
+                            - listitem [ref=e1050]:
+                              - emphasis [ref=e1051]: 适用人群
+                              - text: ：追求最小词库、仅需基础功能的用户。
+                            - listitem [ref=e1052]:
+                              - emphasis [ref=e1053]: 适用场景
+                              - text: ：Win7,fcitx4等低版本，不能使用lua插件的系统。
+                        - listitem [ref=e1054]:
+                          - paragraph [ref=e1055]:
+                            - strong [ref=e1056]: 双拼辅助码增强版 (Pro)
+                            - text: ：均为独立完整配置包，含词库，支持任意双拼挂载，下载包等于选辅助码类型。
+                          - list [ref=e1057]:
+                            - listitem [ref=e1058]:
+                              - emphasis [ref=e1059]: 适用人群
+                              - text: ：双拼+辅助码用户。
+                            - listitem [ref=e1060]:
+                              - emphasis [ref=e1061]: 版本选择
+                              - text: ：
+                              - link "自然码辅助" [ref=e1062] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.9/rime-wanxiang-zrm-fuzhu.zip
+                              - text: "|"
+                              - link "小鹤辅助" [ref=e1063] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.9/rime-wanxiang-flypy-fuzhu.zip
+                              - text: "|"
+                              - link "万象辅助" [ref=e1064] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.9/rime-wanxiang-wx-fuzhu.zip
+                              - text: "|"
+                              - link "首右辅助" [ref=e1065] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.9/rime-wanxiang-shouyou-fuzhu.zip
+                              - text: "|"
+                              - link "首右+辅助" [ref=e1066] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.9/rime-wanxiang-shyplus-fuzhu.zip
+                              - text: "|"
+                              - link "虎码首末辅助" [ref=e1067] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.9/rime-wanxiang-tiger-fuzhu.zip
+                              - text: "|"
+                              - link "墨奇辅助" [ref=e1068] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.9/rime-wanxiang-moqi-fuzhu.zip
+                              - text: "|"
+                              - link "五笔前2辅助" [ref=e1069] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.9/rime-wanxiang-wubi-fuzhu.zip
+                              - text: "|"
+                              - link "汉心辅助" [ref=e1070] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.9/rime-wanxiang-hanxin-fuzhu.zip
+                        - listitem [ref=e1071]:
+                          - paragraph [ref=e1072]:
+                            - strong [ref=e1073]: 大模型语法包 (必装组件)
+                            - text: ：
+                            - link "点击下载语法模型" [ref=e1074] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
+                          - list [ref=e1075]:
+                            - listitem [ref=e1076]:
+                              - emphasis [ref=e1077]: 使用说明
+                              - text: ：
+                              - strong [ref=e1078]: 所有版本（Base/Pro）用户均必须下载此文件
+                              - text: 。下载后直接放入输入法用户目录根目录（与方案文件放一起），无需任何额外配置。
+                      - separator [ref=e1079]
+                      - heading "分发渠道与周边生态" [level=2] [ref=e1080]
+                      - list [ref=e1081]:
+                        - listitem [ref=e1082]:
+                          - strong [ref=e1083]: Linux 仓库
+                          - text: ：
+                          - list [ref=e1084]:
+                            - listitem [ref=e1085]:
+                              - emphasis [ref=e1086]: Arch Linux
+                              - text: ：启用
+                              - link "Arch Linux CN 仓库" [ref=e1087] [cursor=pointer]:
+                                - /url: https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/
+                              - text: 安装。基础版：
+                              - code [ref=e1088]: rime-wanxiang-[方案名]
+                              - text: ；增强版：
+                              - code [ref=e1089]: rime-wanxiang-pro-[方案名]
+                            - listitem [ref=e1090]:
+                              - emphasis [ref=e1091]: deepin 25
+                              - text: ：已并入官方系统仓库，支持
+                              - code [ref=e1092]: apt install
+                              - text: 部署
+                        - listitem [ref=e1093]:
+                          - strong [ref=e1094]: 周边生态
+                          - text: ：
+                          - list [ref=e1095]:
+                            - listitem [ref=e1096]:
+                              - link "仓输入法皮肤推荐" [ref=e1097] [cursor=pointer]:
+                                - /url: https://github.com/BlackCCCat/ResourceforHamster/tree/main/Skin_Keyboard/
+                              - text: "|"
+                              - link "高级版本管理更新脚本" [ref=e1098] [cursor=pointer]:
+                                - /url: https://github.com/rimeinn/rime-wanxiang-update-tools
+                              - text: "|"
+                              - link "万象 CNB 国内镜像源" [ref=e1099] [cursor=pointer]:
+                                - /url: https://cnb.cool/amzxyz/rime-wanxiang
+                  - generic [ref=e1100]:
+                    - group [ref=e1103]:
+                      - button "Assets 13" [ref=e1104] [cursor=pointer]:
+                        - generic [ref=e1105]:
+                          - generic [ref=e1106]: Assets
+                          - generic "13" [ref=e1107]
+                    - generic [ref=e1109]:
+                      - 'button "rocket (1): github-actions[bot], 05:44PM on August 24" [disabled] [ref=e1112]':
+                        - img "rocket" [ref=e1114]
+                        - generic [ref=e1115]: "1"
+                      - generic [ref=e1116]: 1 person reacted
+              - region [ref=e1117]:
+                - heading "v17.5.8 Rime万象拼音输入方案" [level=2] [ref=e1118]
+                - generic [ref=e1121]:
+                  - generic [ref=e1122]:
+                    - generic [ref=e1123]:
+                      - link "v17.5.8 Rime万象拼音输入方案" [ref=e1127] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/releases/tag/v17.5.8
+                      - button "Compare" [ref=e1132] [cursor=pointer]
+                    - generic [ref=e1136]:
+                      - generic [ref=e1137]:
+                        - img "@github-actions" [ref=e1138]
+                        - link "github-actions" [ref=e1139] [cursor=pointer]:
+                          - /url: /apps/github-actions
+                        - text: released this 23 Aug 16:12 5 days ago
+                      - link [ref=e1141] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/tree/v17.5.8
+                        - generic [ref=e1142]:
+                          - img "Tag" [ref=e1143]
+                          - text: v17.5.8
+                      - link [ref=e1146] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/commit/f4a394c1df57f663b355ff99adfeab69348db256
+                        - img "Commit" [ref=e1147]
+                        - code [ref=e1149]: f4a394c
+                    - generic [ref=e1150]:
+                      - heading "更新日志" [level=2] [ref=e1151]
+                      - heading "📚 词库更新" [level=3] [ref=e1152]
+                      - list [ref=e1153]:
+                        - listitem [ref=e1154]:
+                          - text: 词库中混入罗培干扰素α-2b一词，b编码就是b，进而引发了b相关的简码塌陷 (
+                          - link "7de46a7" [ref=e1155] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/7de46a78b9047e0a5bbc2e664662053b16774853
+                          - text: )
+                        - listitem [ref=e1156]: 词库调整（共1次）
+                      - heading "🐛 Bug 修复" [level=3] [ref=e1157]
+                      - list [ref=e1158]:
+                        - listitem [ref=e1159]:
+                          - text: 移除按键事件中持续的小步gc (
+                          - link "5876960" [ref=e1160] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/5876960ac47f91512674f4aefa358bca664a5784
+                          - text: )
+                        - listitem [ref=e1161]:
+                          - text: 缓存前缀 (
+                          - link "7605a7f" [ref=e1162] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/7605a7f8ba4de838de1a2f7f41ac69014b1bb332
+                          - text: )
+                      - separator [ref=e1163]
+                      - heading "下载与选型指南" [level=2] [ref=e1164]
+                      - list [ref=e1165]:
+                        - listitem [ref=e1166]:
+                          - paragraph [ref=e1167]:
+                            - strong [ref=e1168]: 标准版 (Base)
+                            - text: ：
+                            - link "下载方案" [ref=e1169] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.8/rime-wanxiang-base.zip
+                          - list [ref=e1170]:
+                            - listitem [ref=e1171]:
+                              - emphasis [ref=e1172]: 适用人群
+                              - text: ：纯全拼、纯双拼用户。
+                        - listitem [ref=e1173]:
+                          - paragraph [ref=e1174]:
+                            - strong [ref=e1175]: 精简版 (Pure)
+                            - text: ：
+                            - link "下载方案" [ref=e1176] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.8/rime-wanxiang-pure.zip
+                          - list [ref=e1177]:
+                            - listitem [ref=e1178]:
+                              - emphasis [ref=e1179]: 适用人群
+                              - text: ：追求最小词库、仅需基础功能的用户。
+                            - listitem [ref=e1180]:
+                              - emphasis [ref=e1181]: 适用场景
+                              - text: ：Win7,fcitx4等低版本，不能使用lua插件的系统。
+                        - listitem [ref=e1182]:
+                          - paragraph [ref=e1183]:
+                            - strong [ref=e1184]: 双拼辅助码增强版 (Pro)
+                            - text: ：均为独立完整配置包，含词库，支持任意双拼挂载，下载包等于选辅助码类型。
+                          - list [ref=e1185]:
+                            - listitem [ref=e1186]:
+                              - emphasis [ref=e1187]: 适用人群
+                              - text: ：双拼+辅助码用户。
+                            - listitem [ref=e1188]:
+                              - emphasis [ref=e1189]: 版本选择
+                              - text: ：
+                              - link "自然码辅助" [ref=e1190] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.8/rime-wanxiang-zrm-fuzhu.zip
+                              - text: "|"
+                              - link "小鹤辅助" [ref=e1191] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.8/rime-wanxiang-flypy-fuzhu.zip
+                              - text: "|"
+                              - link "万象辅助" [ref=e1192] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.8/rime-wanxiang-wx-fuzhu.zip
+                              - text: "|"
+                              - link "首右辅助" [ref=e1193] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.8/rime-wanxiang-shouyou-fuzhu.zip
+                              - text: "|"
+                              - link "首右+辅助" [ref=e1194] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.8/rime-wanxiang-shyplus-fuzhu.zip
+                              - text: "|"
+                              - link "虎码首末辅助" [ref=e1195] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.8/rime-wanxiang-tiger-fuzhu.zip
+                              - text: "|"
+                              - link "墨奇辅助" [ref=e1196] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.8/rime-wanxiang-moqi-fuzhu.zip
+                              - text: "|"
+                              - link "五笔前2辅助" [ref=e1197] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.8/rime-wanxiang-wubi-fuzhu.zip
+                              - text: "|"
+                              - link "汉心辅助" [ref=e1198] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.8/rime-wanxiang-hanxin-fuzhu.zip
+                        - listitem [ref=e1199]:
+                          - paragraph [ref=e1200]:
+                            - strong [ref=e1201]: 大模型语法包 (必装组件)
+                            - text: ：
+                            - link "点击下载语法模型" [ref=e1202] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
+                          - list [ref=e1203]:
+                            - listitem [ref=e1204]:
+                              - emphasis [ref=e1205]: 使用说明
+                              - text: ：
+                              - strong [ref=e1206]: 所有版本（Base/Pro）用户均必须下载此文件
+                              - text: 。下载后直接放入输入法用户目录根目录（与方案文件放一起），无需任何额外配置。
+                      - separator [ref=e1207]
+                      - heading "分发渠道与周边生态" [level=2] [ref=e1208]
+                      - list [ref=e1209]:
+                        - listitem [ref=e1210]:
+                          - strong [ref=e1211]: Linux 仓库
+                          - text: ：
+                          - list [ref=e1212]:
+                            - listitem [ref=e1213]:
+                              - emphasis [ref=e1214]: Arch Linux
+                              - text: ：启用
+                              - link "Arch Linux CN 仓库" [ref=e1215] [cursor=pointer]:
+                                - /url: https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/
+                              - text: 安装。基础版：
+                              - code [ref=e1216]: rime-wanxiang-[方案名]
+                              - text: ；增强版：
+                              - code [ref=e1217]: rime-wanxiang-pro-[方案名]
+                            - listitem [ref=e1218]:
+                              - emphasis [ref=e1219]: deepin 25
+                              - text: ：已并入官方系统仓库，支持
+                              - code [ref=e1220]: apt install
+                              - text: 部署
+                        - listitem [ref=e1221]:
+                          - strong [ref=e1222]: 周边生态
+                          - text: ：
+                          - list [ref=e1223]:
+                            - listitem [ref=e1224]:
+                              - link "仓输入法皮肤推荐" [ref=e1225] [cursor=pointer]:
+                                - /url: https://github.com/BlackCCCat/ResourceforHamster/tree/main/Skin_Keyboard/
+                              - text: "|"
+                              - link "高级版本管理更新脚本" [ref=e1226] [cursor=pointer]:
+                                - /url: https://github.com/rimeinn/rime-wanxiang-update-tools
+                              - text: "|"
+                              - link "万象 CNB 国内镜像源" [ref=e1227] [cursor=pointer]:
+                                - /url: https://cnb.cool/amzxyz/rime-wanxiang
+                  - generic [ref=e1228]:
+                    - group [ref=e1231]:
+                      - button "Assets 13" [ref=e1232] [cursor=pointer]:
+                        - generic [ref=e1233]:
+                          - generic [ref=e1234]: Assets
+                          - generic "13" [ref=e1235]
+                    - generic [ref=e1237]:
+                      - generic [ref=e1239]:
+                        - 'button "thumbs up (1): github-actions[bot], 04:07PM on August 23" [disabled] [ref=e1240]':
+                          - img "+1" [ref=e1242]
+                          - generic [ref=e1243]: "1"
+                        - 'button "hooray (1): github-actions[bot], 04:07PM on August 23" [disabled] [ref=e1244]':
+                          - img "tada" [ref=e1246]
+                          - generic [ref=e1247]: "1"
+                        - 'button "heart (1): github-actions[bot], 04:07PM on August 23" [disabled] [ref=e1248]':
+                          - img "heart" [ref=e1250]
+                          - generic [ref=e1251]: "1"
+                        - 'button "rocket (1): github-actions[bot], 04:07PM on August 23" [disabled] [ref=e1252]':
+                          - img "rocket" [ref=e1254]
+                          - generic [ref=e1255]: "1"
+                      - generic [ref=e1256]: 1 person reacted
+              - region [ref=e1257]:
+                - heading "v17.5.7 Rime万象拼音输入方案" [level=2] [ref=e1258]
+                - generic [ref=e1261]:
+                  - generic [ref=e1262]:
+                    - generic [ref=e1263]:
+                      - link "v17.5.7 Rime万象拼音输入方案" [ref=e1267] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/releases/tag/v17.5.7
+                      - button "Compare" [ref=e1272] [cursor=pointer]
+                    - generic [ref=e1276]:
+                      - generic [ref=e1277]:
+                        - img "@github-actions" [ref=e1278]
+                        - link "github-actions" [ref=e1279] [cursor=pointer]:
+                          - /url: /apps/github-actions
+                        - text: released this 23 Aug 11:12 5 days ago
+                      - link [ref=e1281] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/tree/v17.5.7
+                        - generic [ref=e1282]:
+                          - img "Tag" [ref=e1283]
+                          - text: v17.5.7
+                      - link [ref=e1286] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/commit/be1331830dd384e6ff08c0abb95f6e5fc88faad4
+                        - img "Commit" [ref=e1287]
+                        - code [ref=e1289]: be13318
+                    - generic [ref=e1290]:
+                      - heading "更新日志" [level=2] [ref=e1291]
+                      - heading "📚 词库更新" [level=3] [ref=e1292]
+                      - list [ref=e1293]:
+                        - listitem [ref=e1294]: 词库调整（共3次）
+                      - heading "🐛 Bug 修复" [level=3] [ref=e1295]
+                      - list [ref=e1296]:
+                        - listitem [ref=e1297]:
+                          - text: 变更正则 (
+                          - link "d44e275" [ref=e1298] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/d44e2756be77f126b50e742ff18189e19287aca0
+                          - text: )
+                      - separator [ref=e1299]
+                      - heading "下载与选型指南" [level=2] [ref=e1300]
+                      - list [ref=e1301]:
+                        - listitem [ref=e1302]:
+                          - paragraph [ref=e1303]:
+                            - strong [ref=e1304]: 标准版 (Base)
+                            - text: ：
+                            - link "下载方案" [ref=e1305] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.7/rime-wanxiang-base.zip
+                          - list [ref=e1306]:
+                            - listitem [ref=e1307]:
+                              - emphasis [ref=e1308]: 适用人群
+                              - text: ：纯全拼、纯双拼用户。
+                        - listitem [ref=e1309]:
+                          - paragraph [ref=e1310]:
+                            - strong [ref=e1311]: 精简版 (Pure)
+                            - text: ：
+                            - link "下载方案" [ref=e1312] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.7/rime-wanxiang-pure.zip
+                          - list [ref=e1313]:
+                            - listitem [ref=e1314]:
+                              - emphasis [ref=e1315]: 适用人群
+                              - text: ：追求最小词库、仅需基础功能的用户。
+                            - listitem [ref=e1316]:
+                              - emphasis [ref=e1317]: 适用场景
+                              - text: ：Win7,fcitx4等低版本，不能使用lua插件的系统。
+                        - listitem [ref=e1318]:
+                          - paragraph [ref=e1319]:
+                            - strong [ref=e1320]: 双拼辅助码增强版 (Pro)
+                            - text: ：均为独立完整配置包，含词库，支持任意双拼挂载，下载包等于选辅助码类型。
+                          - list [ref=e1321]:
+                            - listitem [ref=e1322]:
+                              - emphasis [ref=e1323]: 适用人群
+                              - text: ：双拼+辅助码用户。
+                            - listitem [ref=e1324]:
+                              - emphasis [ref=e1325]: 版本选择
+                              - text: ：
+                              - link "自然码辅助" [ref=e1326] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.7/rime-wanxiang-zrm-fuzhu.zip
+                              - text: "|"
+                              - link "小鹤辅助" [ref=e1327] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.7/rime-wanxiang-flypy-fuzhu.zip
+                              - text: "|"
+                              - link "万象辅助" [ref=e1328] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.7/rime-wanxiang-wx-fuzhu.zip
+                              - text: "|"
+                              - link "首右辅助" [ref=e1329] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.7/rime-wanxiang-shouyou-fuzhu.zip
+                              - text: "|"
+                              - link "首右+辅助" [ref=e1330] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.7/rime-wanxiang-shyplus-fuzhu.zip
+                              - text: "|"
+                              - link "虎码首末辅助" [ref=e1331] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.7/rime-wanxiang-tiger-fuzhu.zip
+                              - text: "|"
+                              - link "墨奇辅助" [ref=e1332] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.7/rime-wanxiang-moqi-fuzhu.zip
+                              - text: "|"
+                              - link "五笔前2辅助" [ref=e1333] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.7/rime-wanxiang-wubi-fuzhu.zip
+                              - text: "|"
+                              - link "汉心辅助" [ref=e1334] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.7/rime-wanxiang-hanxin-fuzhu.zip
+                        - listitem [ref=e1335]:
+                          - paragraph [ref=e1336]:
+                            - strong [ref=e1337]: 大模型语法包 (必装组件)
+                            - text: ：
+                            - link "点击下载语法模型" [ref=e1338] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
+                          - list [ref=e1339]:
+                            - listitem [ref=e1340]:
+                              - emphasis [ref=e1341]: 使用说明
+                              - text: ：
+                              - strong [ref=e1342]: 所有版本（Base/Pro）用户均必须下载此文件
+                              - text: 。下载后直接放入输入法用户目录根目录（与方案文件放一起），无需任何额外配置。
+                      - separator [ref=e1343]
+                      - heading "分发渠道与周边生态" [level=2] [ref=e1344]
+                      - list [ref=e1345]:
+                        - listitem [ref=e1346]:
+                          - strong [ref=e1347]: Linux 仓库
+                          - text: ：
+                          - list [ref=e1348]:
+                            - listitem [ref=e1349]:
+                              - emphasis [ref=e1350]: Arch Linux
+                              - text: ：启用
+                              - link "Arch Linux CN 仓库" [ref=e1351] [cursor=pointer]:
+                                - /url: https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/
+                              - text: 安装。基础版：
+                              - code [ref=e1352]: rime-wanxiang-[方案名]
+                              - text: ；增强版：
+                              - code [ref=e1353]: rime-wanxiang-pro-[方案名]
+                            - listitem [ref=e1354]:
+                              - emphasis [ref=e1355]: deepin 25
+                              - text: ：已并入官方系统仓库，支持
+                              - code [ref=e1356]: apt install
+                              - text: 部署
+                        - listitem [ref=e1357]:
+                          - strong [ref=e1358]: 周边生态
+                          - text: ：
+                          - list [ref=e1359]:
+                            - listitem [ref=e1360]:
+                              - link "仓输入法皮肤推荐" [ref=e1361] [cursor=pointer]:
+                                - /url: https://github.com/BlackCCCat/ResourceforHamster/tree/main/Skin_Keyboard/
+                              - text: "|"
+                              - link "高级版本管理更新脚本" [ref=e1362] [cursor=pointer]:
+                                - /url: https://github.com/rimeinn/rime-wanxiang-update-tools
+                              - text: "|"
+                              - link "万象 CNB 国内镜像源" [ref=e1363] [cursor=pointer]:
+                                - /url: https://cnb.cool/amzxyz/rime-wanxiang
+                  - group [ref=e1367]:
+                    - button "Assets 13" [ref=e1368] [cursor=pointer]:
+                      - generic [ref=e1369]:
+                        - generic [ref=e1370]: Assets
+                        - generic "13" [ref=e1371]
+              - region [ref=e1373]:
+                - heading "v17.5.6 Rime万象拼音输入方案" [level=2] [ref=e1374]
+                - generic [ref=e1377]:
+                  - generic [ref=e1378]:
+                    - generic [ref=e1379]:
+                      - link "v17.5.6 Rime万象拼音输入方案" [ref=e1383] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/releases/tag/v17.5.6
+                      - button "Compare" [ref=e1388] [cursor=pointer]
+                    - generic [ref=e1392]:
+                      - generic [ref=e1393]:
+                        - img "@github-actions" [ref=e1394]
+                        - link "github-actions" [ref=e1395] [cursor=pointer]:
+                          - /url: /apps/github-actions
+                        - text: released this 22 Aug 13:35 last week
+                      - link [ref=e1397] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/tree/v17.5.6
+                        - generic [ref=e1398]:
+                          - img "Tag" [ref=e1399]
+                          - text: v17.5.6
+                      - link [ref=e1402] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/commit/5635769b1c7729c86fa729c68b30b04f51575c0c
+                        - img "Commit" [ref=e1403]
+                        - code [ref=e1405]: "5635769"
+                    - generic [ref=e1406]:
+                      - heading "更新日志" [level=2] [ref=e1407]
+                      - heading "📚 词库更新" [level=3] [ref=e1408]
+                      - list [ref=e1409]:
+                        - listitem [ref=e1410]:
+                          - text: 根据ids补充大量组字 (
+                          - link "a9afc12" [ref=e1411] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/a9afc12db085385b061da6afd2a6a9100f265d74
+                          - text: )
+                        - listitem [ref=e1412]: 词库调整（共1次）
+                      - heading "🐛 Bug 修复" [level=3] [ref=e1413]
+                      - list [ref=e1414]:
+                        - listitem [ref=e1415]:
+                          - text: /wx增加文档地址 (
+                          - link "3b5d3ee" [ref=e1416] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/3b5d3ee84597e4b0373b8685eb424bf127ad8079
+                          - text: )
+                        - listitem [ref=e1417]:
+                          - text: tips改成数组加载文件 (
+                          - link "c9478f2" [ref=e1418] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/c9478f229301bb94cc8060e6335b629a304cef79
+                          - text: )
+                        - listitem [ref=e1419]:
+                          - text: 优化符号hold范围保障-=[],.等翻页的正常工作 (
+                          - link "a4252c6" [ref=e1420] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/a4252c6936140c6228cd5ea9f35ffc40b1da792b
+                          - text: )
+                        - listitem [ref=e1421]:
+                          - text: 反查词库采用权重排序 (
+                          - link "8158f02" [ref=e1422] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/8158f021fb7db712b13ecb39a3ef6ce521f43f1d
+                          - text: )
+                        - listitem [ref=e1423]:
+                          - text: 缓存default方案清单的读取结果(当初是为了兼容低版本librime才读取的) (
+                          - link "35079a4" [ref=e1424] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/35079a49028b41579c8e9c25eeae37425428b592
+                          - text: )
+                      - separator [ref=e1425]
+                      - heading "下载与选型指南" [level=2] [ref=e1426]
+                      - list [ref=e1427]:
+                        - listitem [ref=e1428]:
+                          - paragraph [ref=e1429]:
+                            - strong [ref=e1430]: 标准版 (Base)
+                            - text: ：
+                            - link "下载方案" [ref=e1431] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.6/rime-wanxiang-base.zip
+                          - list [ref=e1432]:
+                            - listitem [ref=e1433]:
+                              - emphasis [ref=e1434]: 适用人群
+                              - text: ：纯全拼、纯双拼用户。
+                        - listitem [ref=e1435]:
+                          - paragraph [ref=e1436]:
+                            - strong [ref=e1437]: 精简版 (Pure)
+                            - text: ：
+                            - link "下载方案" [ref=e1438] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.6/rime-wanxiang-pure.zip
+                          - list [ref=e1439]:
+                            - listitem [ref=e1440]:
+                              - emphasis [ref=e1441]: 适用人群
+                              - text: ：追求最小词库、仅需基础功能的用户。
+                            - listitem [ref=e1442]:
+                              - emphasis [ref=e1443]: 适用场景
+                              - text: ：Win7,fcitx4等低版本，不能使用lua插件的系统。
+                        - listitem [ref=e1444]:
+                          - paragraph [ref=e1445]:
+                            - strong [ref=e1446]: 双拼辅助码增强版 (Pro)
+                            - text: ：均为独立完整配置包，含词库，支持任意双拼挂载，下载包等于选辅助码类型。
+                          - list [ref=e1447]:
+                            - listitem [ref=e1448]:
+                              - emphasis [ref=e1449]: 适用人群
+                              - text: ：双拼+辅助码用户。
+                            - listitem [ref=e1450]:
+                              - emphasis [ref=e1451]: 版本选择
+                              - text: ：
+                              - link "自然码辅助" [ref=e1452] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.6/rime-wanxiang-zrm-fuzhu.zip
+                              - text: "|"
+                              - link "小鹤辅助" [ref=e1453] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.6/rime-wanxiang-flypy-fuzhu.zip
+                              - text: "|"
+                              - link "万象辅助" [ref=e1454] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.6/rime-wanxiang-wx-fuzhu.zip
+                              - text: "|"
+                              - link "首右辅助" [ref=e1455] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.6/rime-wanxiang-shouyou-fuzhu.zip
+                              - text: "|"
+                              - link "首右+辅助" [ref=e1456] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.6/rime-wanxiang-shyplus-fuzhu.zip
+                              - text: "|"
+                              - link "虎码首末辅助" [ref=e1457] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.6/rime-wanxiang-tiger-fuzhu.zip
+                              - text: "|"
+                              - link "墨奇辅助" [ref=e1458] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.6/rime-wanxiang-moqi-fuzhu.zip
+                              - text: "|"
+                              - link "五笔前2辅助" [ref=e1459] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.6/rime-wanxiang-wubi-fuzhu.zip
+                              - text: "|"
+                              - link "汉心辅助" [ref=e1460] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.6/rime-wanxiang-hanxin-fuzhu.zip
+                        - listitem [ref=e1461]:
+                          - paragraph [ref=e1462]:
+                            - strong [ref=e1463]: 大模型语法包 (必装组件)
+                            - text: ：
+                            - link "点击下载语法模型" [ref=e1464] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
+                          - list [ref=e1465]:
+                            - listitem [ref=e1466]:
+                              - emphasis [ref=e1467]: 使用说明
+                              - text: ：
+                              - strong [ref=e1468]: 所有版本（Base/Pro）用户均必须下载此文件
+                              - text: 。下载后直接放入输入法用户目录根目录（与方案文件放一起），无需任何额外配置。
+                      - separator [ref=e1469]
+                      - heading "分发渠道与周边生态" [level=2] [ref=e1470]
+                      - list [ref=e1471]:
+                        - listitem [ref=e1472]:
+                          - strong [ref=e1473]: Linux 仓库
+                          - text: ：
+                          - list [ref=e1474]:
+                            - listitem [ref=e1475]:
+                              - emphasis [ref=e1476]: Arch Linux
+                              - text: ：启用
+                              - link "Arch Linux CN 仓库" [ref=e1477] [cursor=pointer]:
+                                - /url: https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/
+                              - text: 安装。基础版：
+                              - code [ref=e1478]: rime-wanxiang-[方案名]
+                              - text: ；增强版：
+                              - code [ref=e1479]: rime-wanxiang-pro-[方案名]
+                            - listitem [ref=e1480]:
+                              - emphasis [ref=e1481]: deepin 25
+                              - text: ：已并入官方系统仓库，支持
+                              - code [ref=e1482]: apt install
+                              - text: 部署
+                        - listitem [ref=e1483]:
+                          - strong [ref=e1484]: 周边生态
+                          - text: ：
+                          - list [ref=e1485]:
+                            - listitem [ref=e1486]:
+                              - link "仓输入法皮肤推荐" [ref=e1487] [cursor=pointer]:
+                                - /url: https://github.com/BlackCCCat/ResourceforHamster/tree/main/Skin_Keyboard/
+                              - text: "|"
+                              - link "高级版本管理更新脚本" [ref=e1488] [cursor=pointer]:
+                                - /url: https://github.com/rimeinn/rime-wanxiang-update-tools
+                              - text: "|"
+                              - link "万象 CNB 国内镜像源" [ref=e1489] [cursor=pointer]:
+                                - /url: https://cnb.cool/amzxyz/rime-wanxiang
+                  - generic [ref=e1490]:
+                    - group [ref=e1493]:
+                      - button "Assets 13" [ref=e1494] [cursor=pointer]:
+                        - generic [ref=e1495]:
+                          - generic [ref=e1496]: Assets
+                          - generic "13" [ref=e1497]
+                    - generic [ref=e1499]:
+                      - generic [ref=e1501]:
+                        - 'button "thumbs up (1): github-actions[bot], 01:31PM on August 22" [disabled] [ref=e1502]':
+                          - img "+1" [ref=e1504]
+                          - generic [ref=e1505]: "1"
+                        - 'button "hooray (1): github-actions[bot], 01:31PM on August 22" [disabled] [ref=e1506]':
+                          - img "tada" [ref=e1508]
+                          - generic [ref=e1509]: "1"
+                        - 'button "heart (1): github-actions[bot], 01:31PM on August 22" [disabled] [ref=e1510]':
+                          - img "heart" [ref=e1512]
+                          - generic [ref=e1513]: "1"
+                        - 'button "rocket (1): github-actions[bot], 01:31PM on August 22" [disabled] [ref=e1514]':
+                          - img "rocket" [ref=e1516]
+                          - generic [ref=e1517]: "1"
+                      - generic [ref=e1518]: 1 person reacted
+              - region [ref=e1519]:
+                - heading "v17.5.5 Rime万象拼音输入方案" [level=2] [ref=e1520]
+                - generic [ref=e1523]:
+                  - generic [ref=e1524]:
+                    - generic [ref=e1525]:
+                      - link "v17.5.5 Rime万象拼音输入方案" [ref=e1529] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/releases/tag/v17.5.5
+                      - button "Compare" [ref=e1534] [cursor=pointer]
+                    - generic [ref=e1538]:
+                      - generic [ref=e1539]:
+                        - img "@github-actions" [ref=e1540]
+                        - link "github-actions" [ref=e1541] [cursor=pointer]:
+                          - /url: /apps/github-actions
+                        - text: released this 21 Aug 11:24 last week
+                      - link [ref=e1543] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/tree/v17.5.5
+                        - generic [ref=e1544]:
+                          - img "Tag" [ref=e1545]
+                          - text: v17.5.5
+                      - link [ref=e1548] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/commit/3cc7997e3ed2deae5bf23577f6e87dca70902527
+                        - img "Commit" [ref=e1549]
+                        - code [ref=e1551]: 3cc7997
+                    - generic [ref=e1552]:
+                      - heading "更新日志" [level=2] [ref=e1553]
+                      - heading "📚 词库更新" [level=3] [ref=e1554]
+                      - list [ref=e1555]:
+                        - listitem [ref=e1556]: 词库调整（共4次）
+                      - heading "🐛 Bug 修复" [level=3] [ref=e1557]
+                      - list [ref=e1558]:
+                        - listitem [ref=e1559]:
+                          - text: ci 脚本变更 (
+                          - link "4d1de1f" [ref=e1560] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/4d1de1ff11eaac8a617b17c2ec56efc180144130
+                          - text: )
+                        - listitem [ref=e1561]:
+                          - strong [ref=e1562]: "super_lookup:"
+                          - text: 优化代码 (
+                          - link "a6939ef" [ref=e1563] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/a6939efb619f69533791dd544b0cf41e77cf6599
+                          - text: )
+                        - listitem [ref=e1564]:
+                          - strong [ref=e1565]: "super_lookup:"
+                          - text: 在过滤结果中引入类型权重排序，具体看本次提交随文档的变更 (
+                          - link "e651c97" [ref=e1566] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/e651c97ebb8245fc422e6a333920caf766d36c66
+                          - text: )
+                        - listitem [ref=e1567]:
+                          - text: 优化超级符号简化前缀读取，增加tag设置，场景下不会与设置了句号锁定冲突 (
+                          - link "4e17353" [ref=e1568] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/4e17353e56150aad54d5fd3346995f43ee36c327
+                          - text: )
+                        - listitem [ref=e1569]:
+                          - text: 变更两个tag函数名称 (
+                          - link "9b1e8ee" [ref=e1570] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/9b1e8ee8a3bb98a88f6436c1fe683e8593d74dd1
+                          - text: )
+                        - listitem [ref=e1571]:
+                          - text: 变更变量后修复引用 (
+                          - link "976e8db" [ref=e1572] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/976e8dbfdf21cd2a01a00588ec7eaa4f04ad2940
+                          - text: )
+                      - heading "🏡 杂项" [level=3] [ref=e1573]
+                      - list [ref=e1574]:
+                        - listitem [ref=e1575]:
+                          - text: 更新文档 (
+                          - link "2b0c652" [ref=e1576] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/2b0c652e8b6a6cfe01c9a01e113f2f83a3f96351
+                          - text: )
+                      - separator [ref=e1577]
+                      - heading "下载与选型指南" [level=2] [ref=e1578]
+                      - list [ref=e1579]:
+                        - listitem [ref=e1580]:
+                          - paragraph [ref=e1581]:
+                            - strong [ref=e1582]: 标准版 (Base)
+                            - text: ：
+                            - link "下载方案" [ref=e1583] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.5/rime-wanxiang-base.zip
+                          - list [ref=e1584]:
+                            - listitem [ref=e1585]:
+                              - emphasis [ref=e1586]: 适用人群
+                              - text: ：纯全拼、纯双拼用户。
+                        - listitem [ref=e1587]:
+                          - paragraph [ref=e1588]:
+                            - strong [ref=e1589]: 精简版 (Pure)
+                            - text: ：
+                            - link "下载方案" [ref=e1590] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.5/rime-wanxiang-pure.zip
+                          - list [ref=e1591]:
+                            - listitem [ref=e1592]:
+                              - emphasis [ref=e1593]: 适用人群
+                              - text: ：追求最小词库、仅需基础功能的用户。
+                            - listitem [ref=e1594]:
+                              - emphasis [ref=e1595]: 适用场景
+                              - text: ：Win7,fcitx4等低版本，不能使用lua插件的系统。
+                        - listitem [ref=e1596]:
+                          - paragraph [ref=e1597]:
+                            - strong [ref=e1598]: 双拼辅助码增强版 (Pro)
+                            - text: ：均为独立完整配置包，含词库，支持任意双拼挂载，下载包等于选辅助码类型。
+                          - list [ref=e1599]:
+                            - listitem [ref=e1600]:
+                              - emphasis [ref=e1601]: 适用人群
+                              - text: ：双拼+辅助码用户。
+                            - listitem [ref=e1602]:
+                              - emphasis [ref=e1603]: 版本选择
+                              - text: ：
+                              - link "自然码辅助" [ref=e1604] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.5/rime-wanxiang-zrm-fuzhu.zip
+                              - text: "|"
+                              - link "小鹤辅助" [ref=e1605] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.5/rime-wanxiang-flypy-fuzhu.zip
+                              - text: "|"
+                              - link "万象辅助" [ref=e1606] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.5/rime-wanxiang-wx-fuzhu.zip
+                              - text: "|"
+                              - link "首右辅助" [ref=e1607] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.5/rime-wanxiang-shouyou-fuzhu.zip
+                              - text: "|"
+                              - link "首右+辅助" [ref=e1608] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.5/rime-wanxiang-shyplus-fuzhu.zip
+                              - text: "|"
+                              - link "虎码首末辅助" [ref=e1609] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.5/rime-wanxiang-tiger-fuzhu.zip
+                              - text: "|"
+                              - link "墨奇辅助" [ref=e1610] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.5/rime-wanxiang-moqi-fuzhu.zip
+                              - text: "|"
+                              - link "五笔前2辅助" [ref=e1611] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.5/rime-wanxiang-wubi-fuzhu.zip
+                              - text: "|"
+                              - link "汉心辅助" [ref=e1612] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.5/rime-wanxiang-hanxin-fuzhu.zip
+                        - listitem [ref=e1613]:
+                          - paragraph [ref=e1614]:
+                            - strong [ref=e1615]: 大模型语法包 (必装组件)
+                            - text: ：
+                            - link "点击下载语法模型" [ref=e1616] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
+                          - list [ref=e1617]:
+                            - listitem [ref=e1618]:
+                              - emphasis [ref=e1619]: 使用说明
+                              - text: ：
+                              - strong [ref=e1620]: 所有版本（Base/Pro）用户均必须下载此文件
+                              - text: 。下载后直接放入输入法用户目录根目录（与方案文件放一起），无需任何额外配置。
+                      - separator [ref=e1621]
+                      - heading "分发渠道与周边生态" [level=2] [ref=e1622]
+                      - list [ref=e1623]:
+                        - listitem [ref=e1624]:
+                          - strong [ref=e1625]: Linux 仓库
+                          - text: ：
+                          - list [ref=e1626]:
+                            - listitem [ref=e1627]:
+                              - emphasis [ref=e1628]: Arch Linux
+                              - text: ：启用
+                              - link "Arch Linux CN 仓库" [ref=e1629] [cursor=pointer]:
+                                - /url: https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/
+                              - text: 安装。基础版：
+                              - code [ref=e1630]: rime-wanxiang-[方案名]
+                              - text: ；增强版：
+                              - code [ref=e1631]: rime-wanxiang-pro-[方案名]
+                            - listitem [ref=e1632]:
+                              - emphasis [ref=e1633]: deepin 25
+                              - text: ：已并入官方系统仓库，支持
+                              - code [ref=e1634]: apt install
+                              - text: 部署
+                        - listitem [ref=e1635]:
+                          - strong [ref=e1636]: 周边生态
+                          - text: ：
+                          - list [ref=e1637]:
+                            - listitem [ref=e1638]:
+                              - link "仓输入法皮肤推荐" [ref=e1639] [cursor=pointer]:
+                                - /url: https://github.com/BlackCCCat/ResourceforHamster/tree/main/Skin_Keyboard/
+                              - text: "|"
+                              - link "高级版本管理更新脚本" [ref=e1640] [cursor=pointer]:
+                                - /url: https://github.com/rimeinn/rime-wanxiang-update-tools
+                              - text: "|"
+                              - link "万象 CNB 国内镜像源" [ref=e1641] [cursor=pointer]:
+                                - /url: https://cnb.cool/amzxyz/rime-wanxiang
+                  - generic [ref=e1642]:
+                    - group [ref=e1645]:
+                      - button "Assets 13" [ref=e1646] [cursor=pointer]:
+                        - generic [ref=e1647]:
+                          - generic [ref=e1648]: Assets
+                          - generic "13" [ref=e1649]
+                    - generic [ref=e1651]:
+                      - 'button "rocket (2): github-actions[bot], 11:19AM on August 21" [disabled] [ref=e1654]':
+                        - img "rocket" [ref=e1656]
+                        - generic [ref=e1657]: "2"
+                      - generic [ref=e1658]: 2 people reacted
+              - region [ref=e1659]:
+                - heading "v17.5.4 Rime万象拼音输入方案" [level=2] [ref=e1660]
+                - generic [ref=e1663]:
+                  - generic [ref=e1664]:
+                    - generic [ref=e1665]:
+                      - link "v17.5.4 Rime万象拼音输入方案" [ref=e1669] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/releases/tag/v17.5.4
+                      - button "Compare" [ref=e1674] [cursor=pointer]
+                    - generic [ref=e1678]:
+                      - generic [ref=e1679]:
+                        - img "@github-actions" [ref=e1680]
+                        - link "github-actions" [ref=e1681] [cursor=pointer]:
+                          - /url: /apps/github-actions
+                        - text: released this 19 Aug 16:18 last week
+                      - link [ref=e1683] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/tree/v17.5.4
+                        - generic [ref=e1684]:
+                          - img "Tag" [ref=e1685]
+                          - text: v17.5.4
+                      - link [ref=e1688] [cursor=pointer]:
+                        - /url: /amzxyz/rime-wanxiang/commit/07827f8d9f94d7c218cbf707f4ec0e693dcd355f
+                        - img "Commit" [ref=e1689]
+                        - code [ref=e1691]: 07827f8
+                    - generic [ref=e1692]:
+                      - heading "更新日志" [level=2] [ref=e1693]
+                      - heading "📚 词库更新" [level=3] [ref=e1694]
+                      - list [ref=e1695]:
+                        - listitem [ref=e1696]: 词库调整（共1次）
+                      - heading "🐛 Bug 修复" [level=3] [ref=e1697]
+                      - list [ref=e1698]:
+                        - listitem [ref=e1699]:
+                          - text: 移除t9中的超级替换中的派生模式 (
+                          - link "af5cc4e" [ref=e1700] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/af5cc4e3eed8788c5e586528dcb86c96f9317484
+                          - text: )
+                        - listitem [ref=e1701]:
+                          - text: 输入统计改成立刻写入 (
+                          - link "e211110" [ref=e1702] [cursor=pointer]:
+                            - /url: https://github.com/amzxyz/rime-wanxiang/commit/e21111089698cbf6fa7db7253eff961f0f4f5411
+                          - text: )
+                      - separator [ref=e1703]
+                      - heading "下载与选型指南" [level=2] [ref=e1704]
+                      - list [ref=e1705]:
+                        - listitem [ref=e1706]:
+                          - paragraph [ref=e1707]:
+                            - strong [ref=e1708]: 标准版 (Base)
+                            - text: ：
+                            - link "下载方案" [ref=e1709] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.4/rime-wanxiang-base.zip
+                          - list [ref=e1710]:
+                            - listitem [ref=e1711]:
+                              - emphasis [ref=e1712]: 适用人群
+                              - text: ：纯全拼、纯双拼用户。
+                        - listitem [ref=e1713]:
+                          - paragraph [ref=e1714]:
+                            - strong [ref=e1715]: 精简版 (Pure)
+                            - text: ：
+                            - link "下载方案" [ref=e1716] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.4/rime-wanxiang-pure.zip
+                          - list [ref=e1717]:
+                            - listitem [ref=e1718]:
+                              - emphasis [ref=e1719]: 适用人群
+                              - text: ：追求最小词库、仅需基础功能的用户。
+                            - listitem [ref=e1720]:
+                              - emphasis [ref=e1721]: 适用场景
+                              - text: ：Win7,fcitx4等低版本，不能使用lua插件的系统。
+                        - listitem [ref=e1722]:
+                          - paragraph [ref=e1723]:
+                            - strong [ref=e1724]: 双拼辅助码增强版 (Pro)
+                            - text: ：均为独立完整配置包，含词库，支持任意双拼挂载，下载包等于选辅助码类型。
+                          - list [ref=e1725]:
+                            - listitem [ref=e1726]:
+                              - emphasis [ref=e1727]: 适用人群
+                              - text: ：双拼+辅助码用户。
+                            - listitem [ref=e1728]:
+                              - emphasis [ref=e1729]: 版本选择
+                              - text: ：
+                              - link "自然码辅助" [ref=e1730] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.4/rime-wanxiang-zrm-fuzhu.zip
+                              - text: "|"
+                              - link "小鹤辅助" [ref=e1731] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.4/rime-wanxiang-flypy-fuzhu.zip
+                              - text: "|"
+                              - link "万象辅助" [ref=e1732] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.4/rime-wanxiang-wx-fuzhu.zip
+                              - text: "|"
+                              - link "首右辅助" [ref=e1733] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.4/rime-wanxiang-shouyou-fuzhu.zip
+                              - text: "|"
+                              - link "首右+辅助" [ref=e1734] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.4/rime-wanxiang-shyplus-fuzhu.zip
+                              - text: "|"
+                              - link "虎码首末辅助" [ref=e1735] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.4/rime-wanxiang-tiger-fuzhu.zip
+                              - text: "|"
+                              - link "墨奇辅助" [ref=e1736] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.4/rime-wanxiang-moqi-fuzhu.zip
+                              - text: "|"
+                              - link "五笔前2辅助" [ref=e1737] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.4/rime-wanxiang-wubi-fuzhu.zip
+                              - text: "|"
+                              - link "汉心辅助" [ref=e1738] [cursor=pointer]:
+                                - /url: https://github.com/amzxyz/rime-wanxiang/releases/download/v17.5.4/rime-wanxiang-hanxin-fuzhu.zip
+                        - listitem [ref=e1739]:
+                          - paragraph [ref=e1740]:
+                            - strong [ref=e1741]: 大模型语法包 (必装组件)
+                            - text: ：
+                            - link "点击下载语法模型" [ref=e1742] [cursor=pointer]:
+                              - /url: https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
+                          - list [ref=e1743]:
+                            - listitem [ref=e1744]:
+                              - emphasis [ref=e1745]: 使用说明
+                              - text: ：
+                              - strong [ref=e1746]: 所有版本（Base/Pro）用户均必须下载此文件
+                              - text: 。下载后直接放入输入法用户目录根目录（与方案文件放一起），无需任何额外配置。
+                      - separator [ref=e1747]
+                      - heading "分发渠道与周边生态" [level=2] [ref=e1748]
+                      - list [ref=e1749]:
+                        - listitem [ref=e1750]:
+                          - strong [ref=e1751]: Linux 仓库
+                          - text: ：
+                          - list [ref=e1752]:
+                            - listitem [ref=e1753]:
+                              - emphasis [ref=e1754]: Arch Linux
+                              - text: ：启用
+                              - link "Arch Linux CN 仓库" [ref=e1755] [cursor=pointer]:
+                                - /url: https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/
+                              - text: 安装。基础版：
+                              - code [ref=e1756]: rime-wanxiang-[方案名]
+                              - text: ；增强版：
+                              - code [ref=e1757]: rime-wanxiang-pro-[方案名]
+                            - listitem [ref=e1758]:
+                              - emphasis [ref=e1759]: deepin 25
+                              - text: ：已并入官方系统仓库，支持
+                              - code [ref=e1760]: apt install
+                              - text: 部署
+                        - listitem [ref=e1761]:
+                          - strong [ref=e1762]: 周边生态
+                          - text: ：
+                          - list [ref=e1763]:
+                            - listitem [ref=e1764]:
+                              - link "仓输入法皮肤推荐" [ref=e1765] [cursor=pointer]:
+                                - /url: https://github.com/BlackCCCat/ResourceforHamster/tree/main/Skin_Keyboard/
+                              - text: "|"
+                              - link "高级版本管理更新脚本" [ref=e1766] [cursor=pointer]:
+                                - /url: https://github.com/rimeinn/rime-wanxiang-update-tools
+                              - text: "|"
+                              - link "万象 CNB 国内镜像源" [ref=e1767] [cursor=pointer]:
+                                - /url: https://cnb.cool/amzxyz/rime-wanxiang
+                  - group [ref=e1771]:
+                    - button "Assets 13" [ref=e1772] [cursor=pointer]:
+                      - generic [ref=e1773]:
+                        - generic [ref=e1774]: Assets
+                        - generic "13" [ref=e1775]
+          - navigation "Pagination" [ref=e1779]:
+            - link "Previous page" [disabled] [ref=e1780]: Previous
+            - link "Page 1" [ref=e1781] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/releases?page=1
+              - text: "1"
+            - link "Page 2" [ref=e1782] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/releases?page=2
+              - text: "2"
+            - link "Page 3" [ref=e1783] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/releases?page=3
+              - text: "3"
+            - link "Page 4" [ref=e1784] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/releases?page=4
+              - text: "4"
+            - link "Page 5" [ref=e1785] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/releases?page=5
+              - text: "5"
+            - generic [ref=e1786]: …
+            - link "Page 37" [ref=e1787] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/releases?page=37
+              - text: "37"
+            - link "Page 38" [ref=e1788] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/releases?page=38
+              - text: "38"
+            - link "Next page" [ref=e1789] [cursor=pointer]:
+              - /url: /amzxyz/rime-wanxiang/releases?page=2
+              - text: Next
+  - contentinfo [ref=e1790]:
+    - heading "Footer" [level=2] [ref=e1791]
+    - generic [ref=e1792]:
+      - generic [ref=e1793]:
+        - link "GitHub Homepage" [ref=e1794] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=e1797]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1798]:
+        - heading "Footer navigation" [level=3] [ref=e1799]
+        - list "Footer navigation" [ref=e1800]:
+          - listitem [ref=e1801]:
+            - link "Terms" [ref=e1802] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1803]:
+            - link "Privacy" [ref=e1804] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1805]:
+            - link "Security" [ref=e1806] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1807]:
+            - link "Status" [ref=e1808] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1809]:
+            - link "Community" [ref=e1810] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1811]:
+            - link "Docs" [ref=e1812] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1813]:
+            - link "Contact" [ref=e1814] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1815]:
+            - button "Manage cookies" [ref=e1817] [cursor=pointer]
+          - listitem [ref=e1818]:
+            - button "Do not share my personal information" [ref=e1820] [cursor=pointer]

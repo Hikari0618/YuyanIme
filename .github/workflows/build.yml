@@ -1,5 +1,4 @@
 name: Build and Release YuyanIme APK
-# 触发条件：当推送符合 'v*' 格式的标签时触发，例如 v1.0.0
 on:
   push:
     tags:
@@ -23,6 +22,36 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: gradle
+
+      - name: Compile librime_sync.so (dlsym RimeSyncUserData)
+        run: |
+          # GitHub runner 自带 NDK，找到 clang
+          NDK_TOOLCHAIN=$(find /usr/local/lib/android/sdk/ndk -path "*/linux-x86_64/bin/aarch64-linux-android*-clang" 2>/dev/null | head -1)
+          if [ -z "$NDK_TOOLCHAIN" ]; then
+            # 备用：用 Android SDK 的 NDK
+            NDK_TOOLCHAIN=$(find $ANDROID_NDK_HOME -path "*/linux-x86_64/bin/aarch64-linux-android*-clang" 2>/dev/null | head -1)
+          fi
+          if [ -z "$NDK_TOOLCHAIN" ]; then
+            echo "⚠️ NDK not found, skipping librime_sync.so compilation"
+            exit 0
+          fi
+          CC_DIR=$(dirname "$NDK_TOOLCHAIN")
+          JNI_SRC="yuyansdk/src/main/jni/rime_sync_jni.c"
+          if [ ! -f "$JNI_SRC" ]; then
+            echo "⚠️ rime_sync_jni.c not found, skipping"
+            exit 0
+          fi
+          # 编译四个架构
+          for arch in arm64-v8a armeabi-v7a x86 x86_64; do
+            case $arch in
+              arm64-v8a)   CC="$CC_DIR/aarch64-linux-android24-clang" ;;
+              armeabi-v7a) CC="$CC_DIR/armv7a-linux-androideabi24-clang" ;;
+              x86)         CC="$CC_DIR/i686-linux-android24-clang" ;;
+              x86_64)      CC="$CC_DIR/x86_64-linux-android24-clang" ;;
+            esac
+            $CC -shared -o "yuyansdk/libs/$arch/librime_sync.so" "$JNI_SRC" -ldl
+            echo "✅ librime_sync.so compiled for $arch"
+          done
 
       - name: Decode Keystore
         run: |
