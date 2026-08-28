@@ -60,10 +60,14 @@ jobs:
           ls -lh yuyansdk/src/main/assets/rime/wanxiang-lts-zh-hans.gram
 
       - name: Prepare signing keystore
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          STORE_FILE: ${{ secrets.RELEASE_STORE_FILE }}
         run: |
-          if [ -n "${{ secrets.KEYSTORE_BASE64 }}" ]; then
+          mkdir -p keystore
+          if [ -n "$KEYSTORE_BASE64" ]; then
             echo "Using provided keystore from secrets"
-            echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > ${{ secrets.RELEASE_STORE_FILE }}
+            echo "$KEYSTORE_BASE64" | base64 -d > "$STORE_FILE"
           else
             echo "No keystore secret found, generating self-signed keystore"
             keytool -genkey -v \
