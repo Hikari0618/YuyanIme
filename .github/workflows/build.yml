@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Build and Sign APK
+    name: Build and Release
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -25,16 +25,14 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      - name: Compile librime_sync.so (dlsym RimeSyncUserData)
+      - name: Compile librime_sync.so
         run: |
-          # GitHub runner 自带 NDK，找到 clang
           NDK_TOOLCHAIN=$(find /usr/local/lib/android/sdk/ndk -path "*/linux-x86_64/bin/aarch64-linux-android*-clang" 2>/dev/null | head -1)
           if [ -z "$NDK_TOOLCHAIN" ]; then
-            # 备用：用 Android SDK 的 NDK
             NDK_TOOLCHAIN=$(find $ANDROID_NDK_HOME -path "*/linux-x86_64/bin/aarch64-linux-android*-clang" 2>/dev/null | head -1)
           fi
           if [ -z "$NDK_TOOLCHAIN" ]; then
-            echo "⚠️ NDK not found, skipping librime_sync.so compilation"
+            echo "⚠️ NDK not found, skipping"
             exit 0
           fi
           CC_DIR=$(dirname "$NDK_TOOLCHAIN")
@@ -43,7 +41,6 @@ jobs:
             echo "⚠️ rime_sync_jni.c not found, skipping"
             exit 0
           fi
-          # 编译四个架构
           for arch in arm64-v8a armeabi-v7a x86 x86_64; do
             case $arch in
               arm64-v8a)   CC="$CC_DIR/aarch64-linux-android24-clang" ;;
@@ -52,25 +49,48 @@ jobs:
               x86_64)      CC="$CC_DIR/x86_64-linux-android24-clang" ;;
             esac
             $CC -shared -o "yuyansdk/libs/$arch/librime_sync.so" "$JNI_SRC" -ldl
-            echo "✅ librime_sync.so compiled for $arch"
+            echo "✅ librime_sync.so for $arch"
           done
 
-      - name: Decode Keystore
+      - name: Prepare signing keystore
         run: |
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > ${{ secrets.RELEASE_STORE_FILE }}
+          if [ -n "${{ secrets.KEYSTORE_BASE64 }}" ]; then
+            echo "Using provided keystore from secrets"
+            echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > ${{ secrets.RELEASE_STORE_FILE }}
+          else
+            echo "No keystore secret found, generating self-signed keystore"
+            keytool -genkey -v \
+              -keystore keystore/release.jks \
+              -keyalg RSA -keysize 2048 -validity 36500 \
+              -alias yuyan -storepass yuyan123 -keypass yuyan123 \
+              -dname "CN=YuyanIme, OU=Dev, O=Yuyan, L=Beijing, ST=Beijing, C=CN"
+          fi
 
       - name: Make gradlew executable
         run: chmod +x gradlew
 
       - name: Build Release APK
-        run: ./gradlew assembleOffline
+        run: ./gradlew assembleOfflineRelease
         env:
-          RELEASE_STORE_FILE: ${{ secrets.RELEASE_STORE_FILE }}
-          RELEASE_STORE_PASSWORD: ${{ secrets.RELEASE_STORE_PASSWORD }}
-          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
-          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+          RELEASE_STORE_FILE: ${{ secrets.RELEASE_STORE_FILE || 'keystore/release.jks' }}
+          RELEASE_STORE_PASSWORD: ${{ secrets.RELEASE_STORE_PASSWORD || 'yuyan123' }}
+          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS || 'yuyan' }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD || 'yuyan123' }}
 
-      - name: Upload APKs to Release
+      - name: Build Debug APK
+        run: ./gradlew assembleOfflineDebug
+        if: always()
+
+      - name: Upload APKs
+        uses: actions/upload-artifact@v4
+        with:
+          name: yuyanIme-apks
+          path: |
+            app/build/outputs/apk/offline/release/*.apk
+            app/build/outputs/apk/offline/debug/*.apk
+
+      - name: Release (tag only)
+        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
           files: |

@@ -42,19 +42,17 @@ android {
             if (keystorePropertiesFile.exists()) {
                 keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
             }
-            def keystoreFilePath = System.getenv("RELEASE_STORE_FILE") ?: keystoreProperties.getProperty('storeFile')
-            def keystorePassword = System.getenv("RELEASE_STORE_PASSWORD") ?: keystoreProperties.getProperty('storePassword')
-            def keyAliasName = System.getenv("RELEASE_KEY_ALIAS") ?: keystoreProperties.getProperty('keyAlias')
-            def keyPasswordValue = System.getenv("RELEASE_KEY_PASSWORD") ?: keystoreProperties.getProperty('keyPassword')
+            def keystoreFilePath = System.getenv("RELEASE_STORE_FILE") ?: keystoreProperties.getProperty('storeFile') ?: "keystore/release.jks"
+            def keystorePassword = System.getenv("RELEASE_STORE_PASSWORD") ?: keystoreProperties.getProperty('storePassword') ?: "yuyan123"
+            def keyAliasName = System.getenv("RELEASE_KEY_ALIAS") ?: keystoreProperties.getProperty('keyAlias') ?: "yuyan"
+            def keyPasswordValue = System.getenv("RELEASE_KEY_PASSWORD") ?: keystoreProperties.getProperty('keyPassword') ?: "yuyan123"
             def keystoreFile = rootProject.file(keystoreFilePath)
-            if (keystoreFile.exists() && keystorePassword && keyAliasName && keyPasswordValue) {
-                storeFile keystoreFile
-                storePassword keystorePassword
-                keyAlias keyAliasName
-                keyPassword keyPasswordValue
-                v1SigningEnabled true
-                v2SigningEnabled true
-            }
+            storeFile keystoreFile
+            storePassword keystorePassword
+            keyAlias keyAliasName
+            keyPassword keyPasswordValue
+            v1SigningEnabled true
+            v2SigningEnabled true
         }
     }
 
