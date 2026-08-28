@@ -1,0 +1,40 @@
+name: Sync Upstream YuyanIme
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每天北京时间10:00
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          submodules: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Sync upstream
+        id: sync
+        run: |
+          git remote add upstream https://github.com/gurecn/YuyanIme.git 2>/dev/null || true
+          git fetch upstream
+          LOCAL=$(git rev-parse HEAD)
+          UPSTREAM=$(git rev-parse upstream/master 2>/dev/null || git rev-parse upstream/main 2>/dev/null)
+          if [ "$LOCAL" != "$UPSTREAM" ]; then
+            echo "has_update=true" >> $GITHUB_OUTPUT
+            git merge upstream/master --no-edit 2>/dev/null || git merge upstream/main --no-edit 2>/dev/null || true
+          else
+            echo "has_update=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Push
+        if: steps.sync.outputs.has_update == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git push
