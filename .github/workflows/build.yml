@@ -64,8 +64,14 @@ jobs:
           mkdir -p keystore
           echo "$KEYSTORE_BASE64" | base64 -d > keystore/release.jks
           ls -lh keystore/release.jks
+          # 验证 keystore 可读且 alias 正确
+          keytool -list -keystore keystore/release.jks \
+            -storepass "$RELEASE_STORE_PASSWORD" -alias yuyan || \
+            { echo "❌ Keystore 验证失败：alias 'yuyan' 不存在或密码错误"; exit 1; }
+          echo "✅ Keystore 验证通过"
         env:
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          RELEASE_STORE_PASSWORD: ${{ secrets.RELEASE_STORE_PASSWORD }}
 
       - name: Make gradlew executable
         run: chmod +x gradlew
@@ -73,9 +79,9 @@ jobs:
       - name: Build Release APK
         run: ./gradlew assembleOfflineRelease
         env:
-          RELEASE_STORE_FILE: ${{ secrets.RELEASE_STORE_FILE }}
+          RELEASE_STORE_FILE: keystore/release.jks
           RELEASE_STORE_PASSWORD: ${{ secrets.RELEASE_STORE_PASSWORD }}
-          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+          RELEASE_KEY_ALIAS: yuyan
           RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
 
       - name: Build Debug APK
