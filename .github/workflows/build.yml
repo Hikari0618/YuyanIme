@@ -61,6 +61,7 @@ jobs:
 
       - name: Decode keystore
         run: |
+          mkdir -p keystore
           echo "$KEYSTORE_BASE64" | base64 -d > keystore/release.jks
           ls -lh keystore/release.jks
         env:
