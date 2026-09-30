@@ -25,32 +25,13 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      - name: Compile librime_sync.so
+      - name: Check engine library
         run: |
-          NDK_TOOLCHAIN=$(find /usr/local/lib/android/sdk/ndk -path "*/linux-x86_64/bin/aarch64-linux-android*-clang" 2>/dev/null | head -1)
-          if [ -z "$NDK_TOOLCHAIN" ]; then
-            NDK_TOOLCHAIN=$(find $ANDROID_NDK_HOME -path "*/linux-x86_64/bin/aarch64-linux-android*-clang" 2>/dev/null | head -1)
+          if [ ! -f yuyansdk/libs/arm64-v8a/libyuyanime.so ]; then
+            echo "❌ 缺少 yuyansdk/libs/arm64-v8a/libyuyanime.so（新 Rime 核心）"
+            exit 1
           fi
-          if [ -z "$NDK_TOOLCHAIN" ]; then
-            echo "⚠️ NDK not found, skipping"
-            exit 0
-          fi
-          CC_DIR=$(dirname "$NDK_TOOLCHAIN")
-          JNI_SRC="yuyansdk/src/main/jni/rime_sync_jni.c"
-          if [ ! -f "$JNI_SRC" ]; then
-            echo "⚠️ rime_sync_jni.c not found, skipping"
-            exit 0
-          fi
-          for arch in arm64-v8a armeabi-v7a x86 x86_64; do
-            case $arch in
-              arm64-v8a)   CC="$CC_DIR/aarch64-linux-android24-clang" ;;
-              armeabi-v7a) CC="$CC_DIR/armv7a-linux-androideabi24-clang" ;;
-              x86)         CC="$CC_DIR/i686-linux-android24-clang" ;;
-              x86_64)      CC="$CC_DIR/x86_64-linux-android24-clang" ;;
-            esac
-            $CC -shared -o "yuyansdk/libs/$arch/librime_sync.so" "$JNI_SRC" -ldl
-            echo "✅ librime_sync.so for $arch"
-          done
+          ls -lh yuyansdk/libs/arm64-v8a/libyuyanime.so
 
       - name: Download language model (.gram)
         run: |
