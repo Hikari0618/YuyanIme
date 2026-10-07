@@ -33,13 +33,6 @@ jobs:
           fi
           ls -lh yuyansdk/libs/arm64-v8a/libyuyanime.so
 
-      - name: Download language model (.gram)
-        run: |
-          echo "📦 Downloading wanxiang grammar model..."
-          wget -q "https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram" \
-            -O yuyansdk/src/main/assets/rime/wanxiang-lts-zh-hans.gram
-          ls -lh yuyansdk/src/main/assets/rime/wanxiang-lts-zh-hans.gram
-
       - name: Decode keystore
         run: |
           mkdir -p keystore
