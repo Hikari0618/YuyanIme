@@ -31,7 +31,10 @@ android {
     
     packagingOptions {
         jniLibs {
-            useLegacyPackaging true
+            // 非压缩打包（现代做法）：.so 直接从 APK mmap，不再安装时解压。
+            // 依赖 AGP 8.5.1+ 自动把未压缩的 .so 在 zip 内对齐到 16 KB，
+            // 否则 16KB 页设备上会加载失败（见 build.gradle 里 AGP 版本）。
+            useLegacyPackaging false
         }
     }
 
