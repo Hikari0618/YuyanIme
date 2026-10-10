@@ -101,11 +101,13 @@ android {
 }
 
 static def versionCodeDate() {
-    // 改动8：原为 yyyyMMddHH（10 位，如 2148010100），到 2148 年会超过 INT_MAX，
-    // 使 Integer.valueOf 抛异常；且同一小时内多次构建 versionCode 相同。
-    // 改用 yyyyMMdd（8 位，如 20261010，远小于 INT_MAX），按天单调递增，
-    // 同一小时内不再重复。outputFileName 复用本函数，命名仍然合法。
-    return new Date().format("yyyyMMdd", TimeZone.getTimeZone("GMT+8"))
+    // 曾改为 yyyyMMdd（8 位），导致 versionCode 比旧版（yyyyMMddHH，如 2026101020）更小，
+    // 用户覆盖安装报降级（INSTALL_FAILED_VERSION_DOWNGRADE）—— 已回退。
+    // 恢复 yyyyMMddHH（10 位）：单调递增，且远小于 INT_MAX(2147483647)，
+    // 上限约 2148 年，对本项目完全够用（当初担心的溢出是 120 年后的事）。
+    // 注意：同一小时内多次构建 versionCode 相同 —— Android 允许同版本号覆盖安装，
+    // 但 APK 文件名也会相同并互相覆盖，交付时必须报时间戳提醒用户核对。
+    return new Date().format("yyyyMMddHH", TimeZone.getTimeZone("GMT+8"))
 }
 
 static def versionNameDate() {
