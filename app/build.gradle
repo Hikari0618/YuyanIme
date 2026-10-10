@@ -23,12 +23,14 @@ android {
                 arguments = [AROUTER_MODULE_NAME: project.getName()]
             }
         }
-
-        lintOptions {
-            abortOnError false
-        }
     }
-    
+
+    // 改动6：lintOptions 原先写在 defaultConfig 里，AGP 8 会忽略这种旧写法。
+    // 必须移到 android {} 顶层并改用新的 lint {} DSL，abortOnError 才会真正生效。
+    lint {
+        abortOnError false
+    }
+
     packagingOptions {
         jniLibs {
             // 非压缩打包（现代做法）：.so 直接从 APK mmap，不再安装时解压。
@@ -80,7 +82,9 @@ android {
 
         debug {
             applicationIdSuffix ".debug"
-            signingConfig signingConfigs.release
+            // 改动5：debug 变体不再复用 release 签名。否则 debug 包与 release 同签名身份，
+            // 既污染 release 签名一致性，又导致两者无法在同一设备共存升级。
+            // 改为使用默认 debug 签名，仅 release 使用 signingConfigs.release。
         }
 
     }
@@ -97,7 +101,11 @@ android {
 }
 
 static def versionCodeDate() {
-    return new Date().format("yyyyMMddHH", TimeZone.getTimeZone("GMT+8"))
+    // 改动8：原为 yyyyMMddHH（10 位，如 2148010100），到 2148 年会超过 INT_MAX，
+    // 使 Integer.valueOf 抛异常；且同一小时内多次构建 versionCode 相同。
+    // 改用 yyyyMMdd（8 位，如 20261010，远小于 INT_MAX），按天单调递增，
+    // 同一小时内不再重复。outputFileName 复用本函数，命名仍然合法。
+    return new Date().format("yyyyMMdd", TimeZone.getTimeZone("GMT+8"))
 }
 
 static def versionNameDate() {

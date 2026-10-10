@@ -6,7 +6,9 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.5.1'
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22'
+        // 改动9：原为 1.9.22，与 kotlin-serialization 2.0.0 / KSP 2.0.0-1.0.23 混用。
+        // 插件版本不一致会导致编译期 Kotlin 元数据/API 不匹配，统一到 Kotlin 2.0.0。
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.0'
         classpath 'org.jetbrains.kotlin:kotlin-serialization:2.0.0'
         classpath 'com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin:2.0.0-1.0.23'
     }
