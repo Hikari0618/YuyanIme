@@ -117,7 +117,7 @@ keyPassword=testPassword
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=gurecn/YuyanIme&type=Date)](https://star-history.com/#gurecn/YuyanIme&Date)
+[![Star History Chart](https://api.star-history.com/chart?repos=hikari0618/yuyanime&type=date&legend=top-left)](https://www.star-history.com/?repos=hikari0618%2Fyuyanime&type=date&legend=top-left)
 
 
 
