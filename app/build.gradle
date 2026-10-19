@@ -93,6 +93,10 @@ android {
         sourceCompatibility 17
         targetCompatibility 17
     }
+    // 显式钉住 Kotlin jvmTarget，避免系统 JDK 版本变化导致与 javac 17 不一致（同 yuyansdk）。
+    kotlinOptions {
+        jvmTarget = '17'
+    }
     android.applicationVariants.configureEach { variant ->
         variant.outputs.configureEach {
             outputFileName = "yuyanIme_${versionCodeDate()}_${variant.buildType.name}.apk"
